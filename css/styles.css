@@ -57,7 +57,7 @@
 		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ab/8c/0c/villa-alleira.jpg?w=1200&h=-1&s=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1505896202-4fe971e982fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://img.freepik.com/free-photo/beautiful-woman-wearing-typical-thai-dress_1150-5602.jpg?w=1380&t=st=1670638983~exp=1670639583~hmac=3f57a45360c796137ea3189acb48205574dc3633754bdad5f97ae342deaa3a79'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603782/pexels-photo-1603782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603801/pexels-photo-1603801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
@@ -516,12 +516,15 @@
 	    }
 
 	    /* About Description */
-	    .about-description {
-	    	font-size: 24px;
-	    	font-family: 'Roboto', sans-serif;
-	    	color: black;
-	    	font-weight: lighter;
-	    	z-index: 10;
+	    .about-description h2 {
+	    	font-size: 24px !important;
+	    	font-family: 'Roboto', sans-serif !important;
+	    	color: black !important;
+	    	font-weight: lighter !important;
+	    	z-index: 1 !important;
+	    	text-transform: none !important;
+	    	letter-spacing: normal !important;
+	    	text-align: center !important;
 	    }
 
 	    /* Google Maps */
@@ -672,7 +675,7 @@
 	    .footer-icons {
 	    	font-size: 31px;
 	    	font-weight: lighter;
-	    	color: black;
+	    	color: white;
 	    	transition: all 0.3s;
 	    	-webkit-transition: all 0.3s;
 	    	-moz-transition: all 0.3s;
@@ -680,7 +683,7 @@
 			top: -55px !important;
 			margin: 10px;
 			background: transparent;
-			border: 4px solid black;
+			border: 4px solid white;
 			padding: 10px 15px;
 			border-radius: 50%;
 	    }
@@ -688,7 +691,7 @@
 	    .footer-icons:hover {
 	    	background: #40e0d0;
 /*	    	border: 2px solid #fff;*/
-	    	color: black;
+	    	color: white;
 	    }
 
 	    p.all-rights-reserved {
@@ -740,8 +743,8 @@
 	    		padding: 10px 12px;
 	    	}
 
-	    	.about-description {
-	    		font-size: 18px;
+	    	.about-description h2 {
+	    		font-size: 18px !important;
 	    	}
 
 	    	#myVideo {
@@ -754,7 +757,7 @@
 	    }
 
 	    .footer-informations {
-	    	color: black;
+	    	color: white;
 	    	transition: all 0.3s;
 	    	-webkit-transition: all 0.3s;
 	    	-moz-transition: all 0.3s;
@@ -1185,7 +1188,7 @@
 		.owl-page {
 		  height: 10px;
 		  width: 40px;
-		  background-color: rgba(51, 138, 148, 0.2);
+		  background-color: rgba(64, 224, 208, 0.2);
 		  border-radius: 10%;
 		  -webkit-border-radius: 10%;
 		  -moz-border-radius: 10%;
@@ -1193,7 +1196,7 @@
 
 		.owl-page:hover,
 		.owl-page.active {
-		  background-color: rgba(51, 138, 148, 0.7);
+		  background-color: rgba(64, 224, 208, 0.7);
 		}
 
 		.owl-page:not(first-item) {
