@@ -57,7 +57,7 @@
 		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ab/8c/0c/villa-alleira.jpg?w=1200&h=-1&s=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://img.freepik.com/free-photo/beautiful-woman-wearing-typical-thai-dress_1150-5602.jpg?w=1380&t=st=1670638983~exp=1670639583~hmac=3f57a45360c796137ea3189acb48205574dc3633754bdad5f97ae342deaa3a79'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('./../photos/balinese-woman.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603782/pexels-photo-1603782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603801/pexels-photo-1603801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
@@ -523,7 +523,7 @@
 	    	font-weight: lighter !important;
 	    	z-index: 1 !important;
 	    	text-transform: none !important;
-	    	letter-spacing: normal !important;
+	    	letter-spacing: 1px !important;
 	    	text-align: center !important;
 	    }
 
@@ -753,6 +753,58 @@
 
 	    	.fa-facebook-f {
 	    		padding: 10px 3px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 375px) {
+	    	.contact-us-information {
+	    		top: 35% !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 320px) {
+	    	.about-description h2 {
+	    		font-size: 16px !important;
+	    	}
+
+	    	.text-facilities {
+	    		font-size: 12px !important;
+	    	}
+
+	    	p.card-text {
+	    		font-size: 16px !important;
+	    	}
+
+	    	div.portfolio-caption .portfolio-caption-subheading {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.portfolio-modal .modal-content p {
+	    		font-size: 16px !important;
+	    	}
+
+	    	.close-description-button {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.testimonial p.description {
+	    		font-size: 16px !important;
+	    	}
+
+	    	.footer-informations {
+	    		font-size: 14px !important;
+	    	}
+
+	    	p.all-rights-reserved {
+	    		font-size: 8px !important;
+	    	}
+
+	    	.contact-us-information {
+	    		top: 25% !important;
+	    	}
+
+	    	.footer-texts {
+	    		font-size: 8px !important;
 	    	}
 	    }
 
@@ -1029,6 +1081,7 @@
 		.portfolio-modal .modal-content p {
 		  margin-bottom: 2rem;
 		  font-size: 18px;
+		  font-weight: lighter;
 		}
 
 		.portfolio-modal .modal-content ul.list-inline {
@@ -1386,6 +1439,12 @@
 		@media only screen and (max-width: 401px) {
 			.villa-name {
 				font-size: 18px !important;
+			}
+		}
+
+		@media only screen and (max-width: 320px) {
+			.villa-name {
+				font-size: 11px !important;
 			}
 		}
 
