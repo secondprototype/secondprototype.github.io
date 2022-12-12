@@ -694,11 +694,11 @@
 	    	color: white;
 	    }
 
-	    p.all-rights-reserved {
+	    span.all-rights-reserved {
 	    	color: black; font-family: 'Roboto', sans-serif; letter-spacing: 2px; font-weight: lighter;
 	    }
 
-	    p.all-rights-reserved a {
+	    span.all-rights-reserved a {
 	    	color: black;
 	    	transition: all 0.3s;
 	    	-webkit-transition: all 0.3s;
@@ -706,7 +706,7 @@
 	    	-ms-transition: all 0.3s;
 	    }
 
-	    p.all-rights-reserved a:hover {
+	    span.all-rights-reserved a:hover {
 	    	color: #40e0d0;
 	    }
 
@@ -730,7 +730,7 @@
 	    		font-size: 12px !important;
 	    	}
 
-	    	p.all-rights-reserved {
+	    	span.all-rights-reserved {
 	    		font-size: 12px !important;
 	    	}
 
@@ -795,8 +795,8 @@
 	    		font-size: 14px !important;
 	    	}
 
-	    	p.all-rights-reserved {
-	    		font-size: 8px !important;
+	    	span.all-rights-reserved {
+	    		font-size: 10px !important;
 	    	}
 
 	    	.contact-us-information {
@@ -804,7 +804,7 @@
 	    	}
 
 	    	.footer-texts {
-	    		font-size: 8px !important;
+	    		font-size: 10px !important;
 	    	}
 	    }
 
@@ -1266,12 +1266,13 @@
 			position: fixed;
 			width: 60px;
 			height: 60px;
-			bottom: 40px;
-			right: 40px;
+			bottom: 50px;
+			right: 0px;
 			background-color: #25d366;
 			color: #fff;
-			border-radius: 50px;
-			border: 3px solid white;
+/*			border-radius: 50px;*/
+			border: 2px solid white;
+			border-right: none;
 			text-align: center;
 		  	font-size: 30px;
 /*			box-shadow: 2px 2px 3px #999;*/
@@ -1300,7 +1301,7 @@
 
 		@media only screen and (max-width: 414px) {
 			.float {
-				bottom: 75px;
+				bottom: 95px;
 			}
 		}
 
@@ -1360,6 +1361,7 @@
 			height: 100%;
 			padding: 0;
 			margin: 0;
+			border: 2px solid white;
 		}
 
 		.close-x {
