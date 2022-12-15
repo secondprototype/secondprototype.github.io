@@ -777,11 +777,16 @@
 
 	    	div.portfolio-caption .portfolio-caption-subheading {
 	    		font-size: 14px !important;
+	    		font-weight: lighter !important;
 	    	}
 
 	    	.portfolio-modal .modal-content p {
 	    		font-size: 16px !important;
 	    	}
+
+	    	.portfolio-modal .modal-content ul li {
+			  font-size: 16px !important;
+			}
 
 	    	.close-description-button {
 	    		font-size: 14px !important;
@@ -1075,6 +1080,8 @@
 		.portfolio-modal .modal-content p.item-intro {
 		  font-style: italic;
 		  margin-bottom: 2rem;
+		  font-weight: 700;
+		  color: black;
 /*		  font-family: "Roboto", sans-serif;*/
 		}
 
@@ -1082,10 +1089,14 @@
 		  margin-bottom: 2rem;
 		  font-size: 18px;
 		  font-weight: lighter;
+		  letter-spacing: 1px;
 		}
 
-		.portfolio-modal .modal-content ul.list-inline {
-		  margin-bottom: 2rem;
+		.portfolio-modal .modal-content ul li {
+/*		  margin-bottom: 2rem;*/
+		  font-size: 18px;
+		  font-weight: lighter;
+		  letter-spacing: 1px;
 		}
 
 		.portfolio-modal .modal-content img {
@@ -1290,14 +1301,15 @@
 		}
 
 		.float:hover {
-			/*background: transparent;
+			background: #fff;
+/*			color: white;*/
+			border-color: #40e0d0;
 			color: #40e0d0;
-			border-color: #40e0d0;*/
-			color: white;
-			transform: scale(1.1);
+			transform: scale(1.);
 			-webkit-transform: scale(1.1);
 			-moz-transform: scale(1.1);
 		}
+
 
 		@media only screen and (max-width: 414px) {
 			.float {
@@ -1322,11 +1334,11 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
-			pointer-events: none;
+			/*pointer-events: none;
 			-webkit-user-select: none;
 			-moz-user-select: none;
 			-ms-user-select: none;
-			user-select: none;
+			user-select: none;*/
 		}
 
 		.popup-msg {
