@@ -3,8 +3,10 @@
 		@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 		@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 		* {
-			font-family: 'Roboto', sans-serif;
+			font-family: 'Montserrat', sans-serif;
 			box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -17,7 +19,7 @@
 		}
 
 		span {
-			font-family: 'Oswald', sans-serif;
+/*			font-family: 'Oswald', sans-serif;*/
 		}
 
 		/* Override UGG site */
@@ -32,10 +34,10 @@
 
 		/* Typography */
 		/**************************/
-		#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-		#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
-		#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-		#parallax-world-of-ugg p {font-family:'Roboto', sans-serif; font-weight:lighter; font-size:inherit; line-height:24px;}
+		#parallax-world-of-ugg h1 {font-family:'Montserrat', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+		#parallax-world-of-ugg h2 {font-family:'Montserrat', sans-serif; font-size:70px; letter-spacing:0px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+		#parallax-world-of-ugg h3 {font-family:'Montserrat', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:0px; text-transform: uppercase; color:black;}
+		#parallax-world-of-ugg p {font-family:'Montserrat', sans-serif; font-weight:lighter; font-size:inherit; line-height:24px;}
 		.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
 
 		.sc {color: #3b8595;}
@@ -45,7 +47,7 @@
 		/* Section - Title */
 		/**************************/
 		#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
-		#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+		#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:0px;}
 
 		/* Section - Block */
 		/**************************/
@@ -58,7 +60,7 @@
 		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('./../new-pic-alleira-webp/alleira-1.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://github.com/secondprototype/secondprototype.github.io/raw/main/photos/Eva.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('./../photos/eva.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603782/pexels-photo-1603782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603801/pexels-photo-1603801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
@@ -122,7 +124,7 @@
 
 	    .header .book-now-button,
 	    .header .book-now-button:focus {
-	      font-family: 'Oswald', sans-serif;
+	      font-family: 'Montserrat', sans-serif;
 	      font-size: 21px;
 	      color: #000;
 	/*      background: #0025cc;*/
@@ -131,7 +133,7 @@
 		  font-weight: 700;
 	      transition: 0.3s;
 	      text-decoration: none;
-	      letter-spacing: 4px;
+	      letter-spacing: 2px;
 	      text-transform: uppercase;
 		  /* From https://css.glass */
 		  background: rgba(255, 255, 255, 0.2);
@@ -200,7 +202,29 @@
 
 	    @media only screen and (min-width: 1280px) and (max-width: 1399px) {
 	    	.header .book-now-button {
-	    		font-size: 18px;
+	    		font-size: 14px;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 16px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 16px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 486px) {
+	    	.header .book-now-button {
+	    		font-size: 14px;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 14px;
 	    	}
 	    }
 
@@ -215,7 +239,21 @@
 	    	}
 	    }
 
-	    @media only screen and (max-width: 388px) {
+	    @media only screen and (max-width: 401px) {
+	    	.header .book-now-button {
+	    		font-size: 12px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 12px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 12px  !important;
+	    	}
+	    }
+
+	    /*@media only screen and (max-width: 388px) {
 	    	.header .book-now-button {
 	    		font-size: 14px;
 	    	}
@@ -230,6 +268,34 @@
 	    @media only screen and (max-width: 320px) {
 	    	.header .book-now-button {
 	    		font-size: 12px;
+	    	}
+	    }*/
+
+	    @media only screen and (max-width: 353px) {
+	    	.header .book-now-button {
+	    		font-size: 10px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 10px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 10px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 326px) {
+	    	.header .book-now-button {
+	    		font-size: 10px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 8px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 8px !important;
 	    	}
 	    }
 
@@ -261,15 +327,15 @@
 
 	      .navbar a,
 	      .navbar a:focus {
-	      	font-family: 'Oswald', sans-serif;
+	      	font-family: 'Montserrat', sans-serif;
 	      	text-transform: uppercase;
 	        display: flex;
 	        align-items: center;
 	        justify-content: space-between;
 	        padding: 0 3px;
 	        /*font-family: var(--font-secondary);*/
-	        font-size: 20px;
-	        font-weight: 300;
+	        font-size: 16px;
+	        font-weight: 500;
 	        color: #000;
 	        white-space: nowrap;
 	        transition: 0.3s;
@@ -420,7 +486,7 @@
 
 	      .navbar a,
 	      .navbar a:focus {
-	      	font-family: 'Oswald', sans-serif;
+	      	font-family: 'Montserrat', sans-serif;
 	      	text-transform: uppercase;
 	        display: flex;
 	        align-items: center;
@@ -519,12 +585,12 @@
 	    /* About Description */
 	    .about-description h2 {
 	    	font-size: 24px !important;
-	    	font-family: 'Roboto', sans-serif !important;
+	    	font-family: 'Montserrat', sans-serif !important;
 	    	color: black !important;
 	    	font-weight: lighter !important;
 	    	z-index: 1 !important;
 	    	text-transform: none !important;
-	    	letter-spacing: 1px !important;
+/*	    	letter-spacing: 1px !important;*/
 	    	text-align: center !important;
 	    }
 
@@ -639,9 +705,9 @@
 	    --------------------------------------------------------------*/
 	    .text-facilities {
 	        font-size: 14px;
-	        font-family: 'Roboto', sans-serif;
+	        font-family: 'Montserrat', sans-serif;
 	        font-weight: lighter;
-	        letter-spacing: 1px;
+/*	        letter-spacing: 1px;*/
 	        /*text-transform: uppercase;*/
 	        /*color: #ffea00;*/
 	        /*font-family: "Playfair Display", serif;*/
@@ -696,7 +762,7 @@
 	    }
 
 	    span.all-rights-reserved {
-	    	color: black; font-family: 'Roboto', sans-serif; letter-spacing: 2px; font-weight: lighter;
+	    	color: black; font-family: 'Montserrat', sans-serif; font-weight: lighter;
 	    }
 
 	    span.all-rights-reserved a {
@@ -713,7 +779,7 @@
 
 	    .footer-texts {
 	    	color: black;
-	    	letter-spacing: 2px;
+/*	    	letter-spacing: 2px;*/
 	    	font-weight: lighter;
 	    	margin: 10px;
 	    	transition: all 0.5s;
@@ -724,6 +790,40 @@
 	    .footer-texts:hover {
 	    	color: #40e0d0;
 	    	cursor: pointer;
+	    }
+
+	    @media only screen and (min-width: 1400px) {
+	    	.contact-us-information {
+	    		margin-top: -120px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 646px) and (max-width: 1399px) {
+	    	.contact-us-information {
+	    		margin-top: -100px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 645px) {
+	    	.footer-informations {
+	    		font-size: 18px !important;
+	    	}
+
+	    	.footer-icons {
+	    		font-size: 20px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 435px) {
+	    	.contact-us-information {
+	    		margin-left: -30px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 415px) and (max-width: 486px) {
+	    	.about-description h2 {
+	    		font-size: 20px !important;
+	    	}
 	    }
 
 	    @media only screen and (max-width: 414px) {
@@ -755,11 +855,21 @@
 	    	.fa-facebook-f {
 	    		padding: 10px 3px !important;
 	    	}
+
+	    	p.card-text {
+	    		font-size: 18px !important;
+	    	}
 	    }
 
 	    @media only screen and (max-width: 375px) {
 	    	.contact-us-information {
 	    		top: 35% !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 321px) and (max-width: 405px) {
+	    	.footer-informations {
+	    		font-size: 15px !important;
 	    	}
 	    }
 
@@ -821,9 +931,9 @@
 	    	-moz-transition: all 0.3s;
 /*	    	margin-left: 40px;*/
 	    	font-size: 28px;
-	    	font-family: 'Oswald', sans-serif;
+	    	font-family: 'Montserrat', sans-serif;
 	    	z-index: 0 !important;
-	    	letter-spacing: 2px;
+/*	    	letter-spacing: 2px;*/
 	    	width: 90%;
 	    	max-width: 90%;
 	    	/*-webkit-text-stroke: 1px #40e0d0;
@@ -972,7 +1082,7 @@
 	    }
 
 	    .card-title {
-	    	font-family: 'Oswald', sans-serif;
+	    	font-family: 'Montserrat', sans-serif;
 	    	text-align: center;
 	    	font-size: 34px;
 	    }
@@ -1055,14 +1165,14 @@
 
 		#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
 		  font-size: 1.5rem;
-		  font-family: 'Oswald', sans-serif;
+		  font-family: 'Montserrat', sans-serif;
 		  font-weight: 500;
 		  margin-bottom: 0;
 		}
 
 		#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
 		  font-style: italic;
-		  font-family: "Roboto", sans-serif;
+		  font-family: "Montserrat", sans-serif;
 		}
 
 		.portfolio-modal .modal-dialog {
@@ -1079,7 +1189,7 @@
 		.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
 		  font-size: 3rem;
 		  line-height: 3rem;
-		  font-family: 'Oswald', sans-serif;
+		  font-family: 'Montserrat', sans-serif;
 		}
 
 		.portfolio-modal .modal-content p.item-intro {
@@ -1087,21 +1197,21 @@
 		  margin-bottom: 2rem;
 		  font-weight: 700;
 		  color: black;
-/*		  font-family: "Roboto", sans-serif;*/
+/*		  font-family: "Montserrat", sans-serif;*/
 		}
 
 		.portfolio-modal .modal-content p {
 		  margin-bottom: 2rem;
 		  font-size: 18px;
 		  font-weight: lighter;
-		  letter-spacing: 1px;
+/*		  letter-spacing: 1px;*/
 		}
 
 		.portfolio-modal .modal-content ul li {
 /*		  margin-bottom: 2rem;*/
 		  font-size: 18px;
 		  font-weight: lighter;
-		  letter-spacing: 1px;
+/*		  letter-spacing: 1px;*/
 		}
 
 		.portfolio-modal .modal-content img {
@@ -1194,13 +1304,12 @@
 		}
 
 		.testimonial .description {
-		  font-family: 'Roboto', sans-serif;
+		  font-family: 'Montserrat', sans-serif;
 		  font-size: 16px !important;
 		  color: #000;
 		  font-weight: lighter;
 /*		  text-align: left;*/
 		  margin-bottom: 30px;
-		  letter-spacing: 1px;
 		  opacity: 0.9;
 		  -webkit-opacity: 0.9;
 		  -moz-opacity: 0.9;
@@ -1479,7 +1588,7 @@
 		}
 
 		span.main-color {
-/*			font-family: 'Oswald', sans-serif !important;*/
+/*			font-family: 'Montserrat', sans-serif !important;*/
 			color: #40e0d0;
 			transition: all 0.3s;
 			-webkit-transition: all 0.3s;
@@ -1491,3 +1600,4 @@
 		.main-color:hover {
 /*			color: #40e0d0;*/
 		}
+
