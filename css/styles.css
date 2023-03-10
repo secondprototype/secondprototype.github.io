@@ -1,0 +1,2075 @@
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+		@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+		@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+		* {
+			font-family: 'Montserrat', sans-serif;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			scroll-behavior: smooth !important;
+		}
+
+		:root {
+			--main-color: #4f91b4;
+			--bda-blue-color: #052d9c;
+			--bda-yellow-color: #ffd200;
+			--tesimonial-1: rgba(79, 145, 180, 0.2);
+			--tesimonial-2: rgba(79, 145, 180, 0.7);
+			--popup-image: rgba(79, 145, 180, 0.4);
+			--villa-type: rgba(79, 145, 180, 0.9);
+			--facilities-color: invert(58%) sepia(21%) saturate(990%) hue-rotate(156deg) brightness(87%) contrast(87%);
+		}
+
+		::selection {
+			background: var(--tesimonial-1);
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		span {
+/*			font-family: 'Oswald', sans-serif;*/
+		}
+
+		/* Override UGG site */
+		#main {width: 100%; padding:0;}
+		.content-asset p {margin:0 auto;}
+		.breadcrumb {display:none;}
+
+		/* Helpers */
+		/**************************/
+		.margin-top-10 {padding-top:10px;}
+		.margin-bot-10 {padding-bottom:10px;}
+
+		/* Typography */
+		/**************************/
+		#parallax-world-of-ugg h1 {font-family:'Montserrat', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+		#parallax-world-of-ugg h2 {font-family:'Montserrat', sans-serif; font-size:70px; letter-spacing:0px; text-align:center; color:white; font-weight:700; text-transform:uppercase; z-index:10; opacity:.9;}
+		#parallax-world-of-ugg h3 {font-family:'Montserrat', sans-serif; font-size:14px; line-height:normal; font-weight:400; letter-spacing:0px; text-transform: uppercase; color:black;}
+		#parallax-world-of-ugg p {font-family:'Montserrat', sans-serif; font-weight:lighter; font-size:inherit; line-height:24px;}
+		.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+		.sc {color: #3b8595;}
+		.ny {color: #3d3c3a;}
+		.atw {color: #c48660;}
+
+		/* Section - Title */
+		/**************************/
+		#parallax-world-of-ugg .title {
+		 background: white;
+/*		 padding: 60px;*/
+		 padding-top: 15px;
+		 padding-bottom: 18px;
+		 margin: auto;
+		 text-align: center;
+		 justify-content: center;
+		 align-items: center;
+		}
+		#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing: 0px; color: var(--main-color);}
+
+		/* Section - Block */
+		/**************************/
+		#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+		#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+		#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+		/* Section - Parallax */
+		/**************************/
+		/*#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('./../new-pic-alleira-webp/alleira-1.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('./../photos/eva.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603782/pexels-photo-1603782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603801/pexels-photo-1603801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-eight {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+*/
+
+		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('https://bestdealsasiarentals.com/wp-content/uploads/2023/02/VanEdited-IMG_0241.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1490365728022-deae76380607?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1511744548432-8037f30bf0c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/10683235/pexels-photo-10683235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-eight {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+
+
+		/* Extras */
+		/**************************/
+		#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+		/* Media Queries */
+		/**************************/
+		@media only screen and (min-width: 1554px) and (max-width: 1751px) {
+			#parallax-world-of-ugg .title {
+				margin-top: 3px !important;
+			}
+		}
+		@media screen and (max-width: 959px) and (min-width: 768px) {
+		  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+		}
+		@media screen and (max-width: 767px) {
+		  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+/*		  #parallax-world-of-ugg h2 {font-size:30px;}*/
+		  #parallax-world-of-ugg .block {padding: 30px;}
+		  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+		}
+		@media only screen and (max-width: 550px) {
+			#parallax-world-of-ugg h2 {font-size: 50px;}
+			#parallax-world-of-ugg .title h1 {font-size: 30px;}
+		}
+		@media screen and (max-width: 479px) {
+		  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+		}
+		@media only screen and (max-width: 448px) {
+			#parallax-world-of-ugg h2 {font-size: 40px;}
+			#parallax-world-of-ugg .title h1 {font-size: 25px;}	
+		}
+
+		/* Villa Awards */
+		.alleira-awards {
+			padding: 10px !important;
+			margin-right: 0 !important;
+			vertical-align: middle;
+		}
+
+		.alleira-awards a img {
+			float: right;
+			right: 100px !important;
+			border-radius: 50px 10px / 10px;
+			-webkit-border-radius: 50px 10px / 10px;
+			-moz-border-radius: 50px 10px / 10px;
+			-ms-border-radius: 50px 10px / 10px;
+			transition: all 0.4s;
+			-webkit-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			-ms-transition: all 0.4s;
+		}
+
+		.alleira-awards a img:hover {
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+		}
+
+		.villa-awards {
+			position: relative;
+			height: auto;
+			width: 180px;
+/*			border: 2px solid var(--main-color);*/
+			border-radius: 50px 10px / 10px;
+/*			border-radius: 15px 15px 15px 1px;*/
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+/*			margin-top: 50px;*/
+		}
+
+		.villa-awards:hover {
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+		}
+
+		/* Managed by BDA */
+		.managed-by-bda {
+			z-index: 0 !important;
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.managed-by-bda a {
+			color: white;
+		}
+
+		.managed-by-bda a:hover {
+			color: var(--main-color);
+		}
+
+		.managed-by-bda a img {
+			z-index: -1 !important;
+			width: 200px; height: auto;
+		}
+
+		@media only screen and (max-width: 500px) {
+			.managed-by-bda a h6 {
+				font-size: 12px !important;
+			}
+
+			.managed-by-bda a img {
+				width: 200px !important;
+				height: auto !important;
+			}
+		}
+
+		@media only screen and (max-width: 375px) {
+			.managed-by-bda a {
+				font-size: 10px !important;
+			}
+
+			.managed-by-bda a img {
+				width: 150px !important;
+				height: auto !important;
+			}
+		}
+
+		@media only screen and (max-width: 320px) {
+			.managed-by-bda a {
+				font-size: 5px !important;
+				margin-top: -10px !important;
+			}
+		}
+
+		/*--------------------------------------------------------------
+	    # Header
+	    --------------------------------------------------------------*/
+	    #house {
+	    	height: auto !important;
+	    	width: 100% !important;
+	    	max-width: 100% !important;
+	    	position: relative;
+	    	padding: 0 !important;
+	    	background: white;
+	    }
+
+	    /* Header Text */
+	    .header-text {
+	    	top: -80px !important;
+	    	font-size: 40px !important;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	text-transform: uppercase;
+	    	max-width: 100% !important;
+	    	width: 100% !important;
+	    	line-height: normal !important;
+	    	font-weight: 700 !important;
+	    	margin-top: -80px !important;
+	    	color: black !important;
+	    }
+
+	    .header {
+/*	      background: rgba(255, 255, 255, 0.7);*/
+		  background: var(--main-color);
+	      transition: all 0.5s;
+	      -webkit-transition: all 0.5s;
+	      z-index: 997;
+	      height: 90px;
+/*	      border-bottom: 1px solid #fff;*/
+		  /*box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+		  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;*/
+	      top: -100px;
+	      display: block;
+	      /* From https://css.glass */
+		  /*background: rgba(255, 255, 255, 0.2);
+		  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		  backdrop-filter: blur(5px);
+		  -webkit-backdrop-filter: blur(5px);
+		  border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+
+	    }
+
+	    @media (max-width: 575px) {
+	      .header {
+	        height: 70px;
+	      }
+	    }
+
+	    .header .logo img {
+	      /*max-height: 65px;*/
+	      margin-right: 6px;
+	    }
+
+	    .header .book-now-button,
+	    .header .book-now-button:focus {
+	      font-family: 'Montserrat', sans-serif;
+	      font-size: 24px;
+	      color: var(--main-color);
+	      background: #fff;
+	      padding: 7px 15px;
+	      margin-left: 30px;
+		  font-weight: 700 !important;
+	      transition: 0.3s;
+	      text-decoration: none;
+	      letter-spacing: 3px;
+	      text-transform: uppercase;
+		  border: 2px solid var(--main-color);
+		  outline: 2px solid white;
+		  /* From https://css.glass */
+/*		  background: rgba(255, 255, 255, 0.2);*/
+		  /*border-radius: 5px;
+		  -webkit-border-radius: 5px;
+		  -moz-border-radius: 5px;*/
+		  /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		  -moz-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		  backdrop-filter: blur(5px);
+		  -webkit-backdrop-filter: blur(5px);
+		  -moz-backdrop-filter: blur(5px);*/
+
+	    }
+
+	    .header .book-now-button:hover,
+	    .header .book-now-button:focus:hover {
+	      color: black;
+	      transform: scale(1.1);
+	      -webkit-transform: scale(1.1);
+	      -moz-transform: scale(1.1);
+	    }
+
+	    /*@keyframes bookAnimation {
+	      0% {
+	        transform: scale(1.0);
+	      }
+	      50% {
+	        transform: scale(1.1);
+	      }
+	      100% {
+	        transform: scale(1.0);
+	      }
+	    }
+
+	    @-webkit-keyframes bookAnimation {
+	      0% {
+	        transform: scale(1.0);
+	      }
+	      50% {
+	        transform: scale(1.1);
+	      }
+	      100% {
+	        transform: scale(1.0);
+	      }
+	    }
+
+	    @-moz-keyframes bookAnimation {
+	      0% {
+	        transform: scale(1.0);
+	      }
+	      50% {
+	        transform: scale(1.1);
+	      }
+	      100% {
+	        transform: scale(1.0);
+	      }
+	    }*/
+
+	    @media only screen and (min-width: 1033px) and (max-width: 1553px) {
+	    	/*#house {
+	    		height: 150px !important;
+	    	}*/
+
+	    	.alleira-awards a img {
+	    		margin-top: 19px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 992px) and (max-width: 1032px) {
+	    	/*#house {
+	    		height: 192px !important;
+	    	}*/
+
+	    	.alleira-awards a img {
+	    		margin-top: 40px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 991px) {
+	    	/*#house {
+	    		height: 240px !important;
+	    	}*/
+
+	    	.alleira-awards {
+	    		float: none;
+	    		text-align: center !important;
+	    		margin: auto !important;
+	    	}
+
+	    	.alleira-awards a img {
+	    		float: none;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 776px) {
+	    	/*#house {
+	    		height: 290px !important;
+	    	}*/
+	    }
+
+	    @media only screen and (max-width: 550px) {
+	    	/*#house {
+	    		height: 270px !important;
+	    	}*/
+	    }
+
+	    @media only screen and (max-width: 500px) {
+	    	.header .book-now-button:hover, .header .book-now-button:focus:hover {
+	    		transform: none !important;
+	    		-webkit-transform: none !important;
+	    		-moz-transform: none !important;
+	    		-ms-transform: none !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 382px) and (max-width: 448px) {
+	    	/*#house {
+	    		height: 249px !important;
+	    	}*/
+	    }
+
+	    @media only screen and (min-width: 1280px) and (max-width: 1399px) {
+	    	.header .book-now-button {
+	    		font-size: 14px;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 16px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 16px;
+	    	}
+	    }
+
+	    /*@media only screen and (max-width: 680px) {
+	    	#house {
+	    		height: 120px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 445px) {
+	    	#house {
+	    		height: 140px !important;
+	    	}
+	    }*/
+
+	    @media only screen and (min-width: 487px) and (max-width: 494px) {
+	    	.villa-logo {
+	    		width: 130px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 486px) {
+	    	.header .book-now-button {
+	    		font-size: 14px;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 14px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 465px) {
+	    	.villa-logo {
+	    		width: 150px;
+	    		height: auto;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 419px) {
+	    	.villa-logo {
+	    		width: 130px;
+	    		height: auto;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 402px) and (max-width: 412px) {
+	    	.villa-logo {
+	    		width: 110px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 416px) {
+	    	.header .book-now-button {
+	    		font-size: 16px;
+	    	}
+
+	    	.header h1 {
+	    		font-size: 16px;
+	    		letter-spacing: 1px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 414px) {
+	    	.header-text {
+	    		font-size: 15px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 401px) {
+	    	.header .book-now-button {
+	    		font-size: 12px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 12px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 12px  !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 387px) {
+	    	.villa-logo {
+	    		width: 100px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 375px) {
+	    	.header-text {
+	    		font-size: 14px !important;
+	    	}
+	    }
+
+	    /*@media only screen and (max-width: 388px) {
+	    	.header .book-now-button {
+	    		font-size: 14px;
+	    	}
+
+	    	.header h1 {
+	    		font-size: 14px;
+	    		letter-spacing: 1px;
+
+	    	}
+	    }
+
+	    @media only screen and (max-width: 320px) {
+	    	.header .book-now-button {
+	    		font-size: 12px;
+	    	}
+	    }*/
+
+	    @media only screen and (min-width: 354px) and (max-width: 357px) {
+	    	.header .book-now-button {
+	    		font-size: auto;
+	    	}
+
+	    	.villa-logo {
+	    		width: 90px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 353px) {
+	    	.header .book-now-button {
+	    		font-size: 10px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 10px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 10px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 330px) {
+	    	.header-text {
+	    		font-size: 14px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 320px) and (max-width: 344px) {
+	    	.villa-logo {
+	    		width: 70px;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 326px) {
+	    	.header .book-now-button {
+	    		font-size: 10px !important;
+	    	}
+
+	    	h1.villa-name {
+	    		font-size: 8px !important;
+	    	}
+
+	    	.villa-name span {
+	    		font-size: 8px !important;
+	    	}
+	    }
+
+		/*--------------------------------------------------------------
+	    # Desktop Navigation
+	    --------------------------------------------------------------*/
+	    @media (min-width: 1280px) {
+	      .navbar {
+	        padding: 0;
+	/*        z-index: 999999;*/
+	      }
+
+	      .navbar ul {
+	        margin: 0;
+	        padding: 0;
+	        display: flex;
+	        list-style: none;
+	        align-items: center;
+	      }
+
+	      .navbar li {
+	        position: relative;
+	      }
+
+	      .navbar>ul>li {
+	        white-space: nowrap;
+	        padding: 10px 0 10px 28px;
+	      }
+
+	      .navbar a,
+	      .navbar a:focus {
+	      	font-family: 'Montserrat', sans-serif;
+	      	text-transform: uppercase;
+	        display: flex;
+	        align-items: center;
+	        justify-content: space-between;
+	        padding: 0 3px;
+	        font-size: 16px;
+	        font-weight: 500;
+	        color: #000;
+	        white-space: nowrap;
+	        transition: 0.3s;
+	        position: relative;
+	        text-decoration: none;
+	/*        mix-blend-mode: difference;*/
+	      }
+
+	      .navbar a i,
+	      .navbar a:focus i {
+	        font-size: 12px;
+	        line-height: 0;
+	        margin-left: 5px;
+	      }
+
+	      .navbar>ul>li>a:before {
+	        content: "";
+	        position: absolute;
+	        width: 100%;
+	        height: 2px;
+	        bottom: -6px;
+	        left: 0;
+	        background-color: white;
+	        visibility: hidden;
+	        width: 0px;
+	        transition: all 0.3s ease-in-out 0s;
+	      }
+
+	      .navbar a:hover:before,
+	      .navbar li:hover>a:before,
+	      .navbar .active:before {
+	        visibility: visible;
+	        width: 100%;
+	      }
+
+	      .navbar a:hover,
+	      .navbar .active,
+	      .navbar .active:focus,
+	      .navbar li:hover>a {
+	        color: #000;
+	      }
+
+	      .navbar .dropdown ul {
+	        display: block;
+	        position: absolute;
+	        left: 28px;
+	        top: calc(100% + 30px);
+	        margin: 0;
+	        padding: 10px 0;
+	        z-index: 99;
+	        opacity: 0;
+	        visibility: hidden;
+	        background: #fff;
+	        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	        transition: 0.3s;
+	        border-radius: 4px;
+	        -webkit-border-radius: 4px;
+	        -moz-border-radius: 4px;
+	      }
+
+	      .navbar .dropdown ul li {
+	        min-width: 200px;
+	      }
+
+	      .navbar .dropdown ul a {
+	        padding: 10px 20px;
+	        font-size: 14px;
+	        text-transform: none;
+	        font-weight: 600;
+	      }
+
+	      .navbar .dropdown ul a i {
+	        font-size: 12px;
+	      }
+
+	      .navbar .dropdown ul a:hover,
+	      .navbar .dropdown ul .active:hover,
+	      .navbar .dropdown ul li:hover>a {
+	        color: var(--color-primary);
+	      }
+
+	      .navbar .dropdown:hover>ul {
+	        opacity: 1;
+	        top: 100%;
+	        visibility: visible;
+	      }
+
+	      .navbar .dropdown .dropdown ul {
+	        top: 0;
+	        left: calc(100% - 30px);
+	        visibility: hidden;
+	      }
+
+	      .navbar .dropdown .dropdown:hover>ul {
+	        opacity: 1;
+	        top: 0;
+	        left: 100%;
+	        visibility: visible;
+	      }
+	    }
+
+	    @media (min-width: 1280px) and (max-width: 1366px) {
+	      .navbar .dropdown .dropdown ul {
+	        left: -90%;
+	      }
+
+	      .navbar .dropdown .dropdown:hover>ul {
+	        left: -100%;
+	      }
+	    }
+
+	    @media (min-width: 1280px) {
+
+	      .mobile-nav-show,
+	      .mobile-nav-hide {
+	        display: none;
+	      }
+	    }
+
+	    /*--------------------------------------------------------------
+	    # Mobile Navigation
+	    --------------------------------------------------------------*/
+	      @media (max-width: 1279px) {
+	      .navbar {
+	        position: fixed;
+	        top: 0;
+	        right: -100%;
+	        width: 100%;
+	        max-width: 400px;
+/*	        border-left: 1px solid #666;*/
+	        border-left: 1px solid var(--main-color);
+	        bottom: 0;
+	        transition: 0.3s;
+	        z-index: 9997;
+	      }
+
+	      .navbar ul {
+	        position: absolute;
+	        inset: 0;
+	        padding: 50px 0 10px 0;
+	        margin: 0;
+/*	        background: rgba(255, 255, 255, 0.9);*/
+	        background: var(--tesimonial-2);
+	        overflow-y: auto;
+	        transition: 0.3s;
+	        -webkit-transition: 0.3s;
+	        -moz-transition: 0.3s;
+	        z-index: 9998;
+	      }
+
+	      .navbar a,
+	      .navbar a:focus {
+	      	font-family: 'Montserrat', sans-serif;
+	      	text-transform: uppercase;
+	        display: flex;
+	        align-items: center;
+	        justify-content: space-between;
+	        padding: 10px 20px;
+	        /*font-family: var(--font-secondary);*/
+/*	        border-bottom: 2px solid rgba(255, 255, 255, 0.8);*/
+	        border-bottom: 2px solid transparent;
+	        font-size: 21px;
+	        font-weight: 500;
+	        color: #000;
+	        white-space: nowrap;
+	        transition: 0.3s;
+	        -webkit-transition: 0.3s;
+	        -moz-transition: 0.3s;
+	        -ms-transition: 0.3s;
+	      }
+
+	      .navbar a i,
+	      .navbar a:focus i {
+	        font-size: 12px;
+	        line-height: 0;
+	        margin-left: 5px;
+	      }
+
+	      .navbar a:hover,
+	      .navbar li:hover>a {
+	        color: #000;
+	      }
+
+	      .navbar .active,
+	      .navbar .active:focus {
+	        color: #000;
+/*	        border-color: var(--main-color);*/
+	        border-color: #fff;
+	      }
+
+	      .navbar .dropdown ul,
+	      .navbar .dropdown .dropdown ul {
+	        position: static;
+	        display: none;
+	        padding: 10px 0;
+	        margin: 10px 20px;
+	        transition: all 0.5s ease-in-out;
+	        -webkit-transition: all 0.5s ease-in-out;
+	        -moz-transition: all 0.5s ease-in-out;
+	        border: 1px solid #eee;
+	      }
+
+	      .navbar .dropdown>.dropdown-active,
+	      .navbar .dropdown .dropdown>.dropdown-active {
+	        display: block;
+	      }
+
+	      .mobile-nav-show {
+	        color: #000;
+	        font-size: 28px;
+	        font-weight: bolder;
+	        cursor: pointer;
+	        line-height: 0;
+	        transition: 0.5s;
+	        -webkit-transition: 0.5s;
+	        -moz-transition: 0.5s;
+	        z-index: 9999;
+	        margin: 0 10px 0 20px;
+	      }
+
+	      .mobile-nav-hide {
+	        color: black;
+	        font-size: 32px;
+	        cursor: pointer;
+	        line-height: 0;
+	        transition: 0.5s;
+	        -webkit-transition: 0.5s;
+	        -moz-transition: 0.5s;
+	        position: fixed;
+	        right: 20px;
+	        top: 20px;
+	        z-index: 9999;
+	      }
+
+	      .mobile-nav-active {
+	        overflow: hidden;
+	      }
+
+	      .mobile-nav-active .navbar {
+	        right: 0;
+	      }
+
+	      .mobile-nav-active .navbar:before {
+	        content: "";
+	        position: fixed;
+	        inset: 0;
+	        background: rgba(255, 255, 255, 0.8);
+	        z-index: 9996;
+	      }
+	    }
+
+	    /* Section Titles */
+	    .section-titles {
+	    	font-size: 45px !important;
+	    	font-weight: 700 !important;
+	    }
+
+	    @media only screen and (max-width: 414px) {
+	    	.section-titles {
+	    		font-size: 36px !important;
+	    	}
+	    }
+
+	    /* About Description */
+	    .about-description h2 {
+	    	font-family: 'Montserrat', sans-serif !important;
+	    	font-size: 16px !important;
+	    	font-weight: 400 !important;
+	    	color: black !important;
+	    	line-height: 1.6;
+	    	z-index: 1 !important;
+	    	text-transform: none !important;
+	    	text-align: justify !important;
+	    }
+
+	    /* Google Maps */
+		#map {
+		  height: 50vh;
+		  width: 100%;
+		  /*border-radius: 5px;
+		  -webkit-border-radius: 5px;
+		  -moz-border-radius: 5px;*/
+		  /*box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+		  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+		  -moz-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;*/
+		  z-index: 1;
+		}
+
+		/* Video */
+		#myVideo {
+		  position: relative;
+		  border-top: 2px solid var(--main-color);
+		  border-bottom: 2px solid var(--main-color);
+		  margin-bottom: -7px !important;
+		  right: 0;
+		  bottom: 0;
+		  width: 100% !important;
+		  max-width: 100% !important;
+		  /*height: auto;
+		  max-height: 100%;*/
+		  overflow: hidden;
+		  z-index: 1;
+		  object-fit: contain !important;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		}
+
+		/*.video-text h3 {
+			background: rgba(255, 255, 255, 0.5);
+			position: absolute;
+			z-index: 10;
+			display: inline-block;
+			color: white !important;
+			align-items: center;
+			justify-content: center;
+			top: 35%;
+			height: 100%;
+			width: 100%;
+			font-size: 70px !important;
+			margin-bottom: 15px;
+		}*/
+
+		/* Wave Image */
+		.wave-image {
+/*			position: absolute;*/
+	        position: relative;
+	        top: auto;
+	        bottom: -4px !important;
+	        left:0;
+	        right:0;
+	        width: 100%;
+	        overflow-x: hidden;
+/*	        z-index: 10;*/
+	        background: transparent;
+	    }
+
+	    /* Gallery */
+        .photo-gallery {
+/*          background-color: #fff;*/
+		  margin: 0;
+		  padding: 0;
+		  position: relative;
+		  z-index: 1;
+        }
+
+        .photo-gallery .photos {
+/*          padding-bottom: 20px;*/
+          margin: 0;
+          padding: 0;
+          display: inline-flex;
+          flex-wrap: wrap;
+        }
+
+        .photo-gallery .item {
+/*          padding-bottom: 30px;*/
+        }
+
+        .photos img {
+        	margin: 0 !important;
+        	padding: 0 !important;
+        	width: 100%;
+        	height: 100%;
+        	border: 1px solid var(--main-color);
+        }
+
+        .photos img:hover {
+        	cursor: zoom-in;
+        }
+
+        .img-fluid {
+        	right: 0;
+        	left: 0;
+        	margin: 0 !important;
+        	padding: 0 !important;
+        }
+
+        /* Line */
+        hr.soften {
+		  height: 1px;
+		  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+		  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+		  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+		  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+		  border: 0;
+		}
+
+		/*--------------------------------------------------------------
+	    # Facilites
+	    --------------------------------------------------------------*/
+	    .text-facilities {
+	        font-size: 13px !important;
+	        font-family: 'Montserrat', sans-serif;
+	        font-weight: 500 !important;
+/*	        letter-spacing: 1px;*/
+	        /*text-transform: uppercase;*/
+	        /*color: #ffea00;*/
+	        /*font-family: "Playfair Display", serif;*/
+	    }
+
+	    .img-fluid-facilities {
+	        height: 100px;
+	        width: 100px;
+	        margin: 10px;
+	        transition: .2s linear;
+	        -webkit-transition: .2s linear;
+	        -moz-transition: .2s linear;
+	        -ms-transition: .2s linear;
+	        z-index: 10;
+	    }
+
+	    .img-fluid-facilities:hover {
+	        transform: scale(1.2);
+	        -webkit-transform: scale(1.2);
+	        cursor: auto;
+	        filter: var(--facilities-color);
+	        -webkit-filter: var(--facilities-color);
+	        -moz-filter: var(--facilities-color);
+	        -ms-filter: var(--facilities-color);
+	    }
+
+	    #facilities {
+	    	z-index: 1;
+	    }
+
+	    /* Footer Icons */
+	    .footer-icons {
+	    	font-size: 31px;
+	    	font-weight: lighter;
+	    	color: white;
+	    	transition: all 0.3s;
+	    	-webkit-transition: all 0.3s;
+	    	-moz-transition: all 0.3s;
+/*	    	line-height: 80%;*/
+			top: -55px !important;
+			margin: 10px;
+			background: transparent;
+			border: 4px solid white;
+			padding: 10px 15px;
+			border-radius: 50%;
+	    }
+
+	    .footer-icons:hover {
+	    	background: var(--main-color);
+/*	    	border: 2px solid #fff;*/
+	    	color: white;
+	    }
+
+	    span.all-rights-reserved {
+	    	color: black;
+	    	font-family: 'Montserrat', sans-serif;
+	    	font-weight: 500;
+	    	font-size: 14px !important;
+	    }
+
+	    span.all-rights-reserved a {
+	    	color: black;
+	    	transition: all 0.3s;
+	    	-webkit-transition: all 0.3s;
+	    	-moz-transition: all 0.3s;
+	    	-ms-transition: all 0.3s;
+	    }
+
+	    span.all-rights-reserved a:hover {
+	    	color: var(--main-color);
+	    }
+
+	    .footer-texts {
+	    	font-size: 14px !important;
+	    	color: black;
+/*	    	letter-spacing: 2px;*/
+	    	font-weight: 500;
+	    	margin: 10px;
+	    	transition: all 0.5s;
+	    	-webkit-transition: all 0.5s;
+	    	-moz-transition: all 0.5s;
+	    }
+
+	    .footer-texts:hover {
+	    	color: var(--main-color);
+	    	cursor: pointer;
+	    }
+
+	    @media only screen and (min-width: 1400px) {
+	    	.contact-us-information {
+	    		margin-top: -120px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 646px) and (max-width: 1399px) {
+	    	.contact-us-information {
+	    		top: 130px !important;
+	    	}
+	    	.lets-stay {
+	    		font-size: 60px !important;
+	    	}
+
+	    	.footer-informations {
+	    		font-size: 22px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 645px) {
+	    	.footer-informations {
+	    		font-size: 18px !important;
+	    	}
+
+	    	.footer-icons {
+	    		font-size: 20px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 551px) and (max-width: 645px) {
+	    	.contact-us-information {
+	    		top: 130px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 436px) and (max-width: 550px) {
+	    	.contact-us-information {
+	    		top: 200px !important;
+	    		margin-left: -30px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 435px) {
+	    	.contact-us-information {
+	    		margin-left: -30px !important;
+	    		top: 220px !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 415px) and (max-width: 486px) {
+	    	.about-description h2 {
+	    		font-size: 16px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 414px) {
+	    	.footer-texts {
+	    		font-size: 12px !important;
+	    	}
+
+	    	span.all-rights-reserved {
+	    		font-size: 12px !important;
+	    	}
+
+	    	.footer-informations {
+	    		font-size: 18px !important;
+	    	}
+
+	    	.footer-icons {
+	    		font-size: 16px !important;
+	    		padding: 10px 12px;
+	    	}
+
+	    	.about-description h2 {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.fa-facebook-f {
+	    		padding: 10px 3px !important;
+	    	}
+
+	    	p.card-text {
+	    		font-size: 14px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 375px) {
+	    	.contact-us-information {
+	    		top: 22% !important;
+	    	}
+	    }
+
+	    @media only screen and (min-width: 321px) and (max-width: 405px) {
+	    	.footer-informations {
+	    		font-size: 15px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 320px) {
+	    	.about-description h2 {
+	    		font-size: 13px !important;
+	    	}
+
+	    	.text-facilities {
+	    		font-size: 11px !important;
+	    	}
+
+	    	p.card-text {
+	    		font-size: 12px !important;
+	    	}
+
+	    	div.portfolio-caption .portfolio-caption-subheading {
+	    		font-size: 14px !important;
+	    		font-weight: lighter !important;
+	    	}
+
+	    	.portfolio-modal .modal-content p {
+	    		font-size: 12px !important;
+	    	}
+
+	    	.portfolio-modal .modal-content ul li {
+			  font-size: 12px !important;
+			}
+
+	    	.close-description-button {
+	    		font-size: 14px !important;
+	    	}
+
+	    	.footer-informations {
+	    		font-size: 14px !important;
+	    	}
+
+	    	span.all-rights-reserved {
+	    		font-size: 10px !important;
+	    	}
+
+	    	.contact-us-information {
+	    		top: 18% !important;
+	    	}
+
+	    	.footer-texts {
+	    		font-size: 10px !important;
+	    	}
+	    }
+
+	    .footer-informations {
+	    	color: white;
+	    	transition: all 0.3s;
+	    	-webkit-transition: all 0.3s;
+	    	-moz-transition: all 0.3s;
+/*	    	margin-left: 40px;*/
+	    	font-size: 28px;
+	    	font-family: 'Montserrat', sans-serif;
+	    	z-index: 0 !important;
+/*	    	letter-spacing: 2px;*/
+	    	width: 90%;
+	    	max-width: 100%;
+	    	/*-webkit-text-stroke: 1px var(--main-color);
+	    	-moz-text-stroke: 1px var(--main-color);
+	    	-ms-text-stroke: 1px var(--main-color);*/
+/*	    	position: relative;*/
+/*	    	display: block;*/
+	    }
+
+	    /*.footer-informations:before {
+	    	content: '';
+	    	width: 24px;
+	    	height: 5px;
+	    	background: white;
+	    	position: absolute;
+	    	margin-left: -40px;
+	    }*/
+
+	    .footer-informations:hover {
+	    	color: var(--main-color);
+	    	cursor: pointer;
+/*	    	-webkit-text-stroke: 1px white;*/
+	    }
+
+	    .fa-facebook-f {
+	    	padding: 10px 5px;
+	    }
+
+	    .margin-top-bottom {
+	    	margin-top: 115px !important;
+	    	margin-bottom: 15px !important;
+	    }
+
+	    /* z-index 1 */
+	    .z-index1 {
+	    	z-index: 1 !important;
+	    	position: relative;
+	    }
+
+	    #first-page {
+/*	    	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://images.pexels.com/photos/1661375/pexels-photo-1661375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat;*/
+/*			background: black;*/
+	    	background-size: cover;
+	    	border-top: 1px solid white;
+	    	border-bottom: 1px solid white;
+	    	z-index: 1;
+	    	position: relative;
+	    }
+
+	    .second-arrow-down-animation {
+	    	color: white;
+	    	position: relative;
+	    	margin-left: -48px;
+	    	font-size: 51px;
+	    	transition: all 0.5s;
+	    	-webkit-transition: all 0.5s;
+	    	-moz-transition: all 0.5s;
+	    	animation: gogodown 5s infinite;
+	    	-webkit-animation: gogodown 5s infinite;
+	    	-moz-animation: gogodown 5s infinite;
+	    	animation-delay: 2s;
+	    	-webkit-animation-delay: 2s;
+	    	-moz-animation-delay: 2s;
+	    }
+
+	    .second-arrow-down-animation:hover {
+	    	color: var(--main-color);
+	    }
+
+	    /* Arrow Down */
+	    .arrow-down-animation {
+	    	font-size: 51px;
+	    	color: white;
+	    	transition: all 0.5s;
+	    	-webkit-transition: all 0.5s;
+	    	-moz-transition: all 0.5s;
+	    	animation: gogodown 5s infinite;
+	    	-webkit-animation: gogodown 5s infinite;
+	    	-moz-animation: gogodown 5s infinite;
+	    	position: relative;
+	    	z-index: 1;
+	    }
+
+	    .arrow-down-animation:hover {
+	    	color: var(--main-color);
+	    }
+
+	    @keyframes gogodown {
+	    	from {
+	    		top: 0;
+	    		opacity: 1;
+	    		-webkit-opacity: 1;
+	    		-moz-opacity: 1;
+	    	}
+
+	    	to {
+	    		top: 120px;
+	    		opacity: 0;
+	    		-webkit-opacity: 0;
+	    		-moz-opacity: 0;
+	    	}
+	    }
+
+	    @-webkit-keyframes gogodown {
+	    	from {
+	    		top: 0;
+	    		opacity: 1;
+	    		-webkit-opacity: 1;
+	    		-moz-opacity: 1;
+	    	}
+
+	    	to {
+	    		top: 120px;
+	    		opacity: 0;
+	    		-webkit-opacity: 0;
+	    		-moz-opacity: 0;
+	    	}
+	    }
+
+	    @-moz-keyframes gogodown {
+	    	from {
+	    		top: 0;
+	    		opacity: 1;
+	    		-webkit-opacity: 1;
+	    		-moz-opacity: 1;
+	    	}
+
+	    	to {
+	    		top: 120px;
+	    		opacity: 0;
+	    		-webkit-opacity: 0;
+	    		-moz-opacity: 0;
+	    	}
+	    }
+
+	    /* Special Package */
+	    .img-special-package {
+	    	width: auto;
+	    	height: auto;
+	    	position: relative;
+	    }
+
+	    .card {
+	    	border: 1px solid white;
+	    	background: #f8f9fa;
+	    }
+
+	    .card-title {
+	    	font-family: 'Montserrat', sans-serif;
+	    	text-align: center;
+	    	font-size: 24px;
+	    }
+
+	    .card-text {
+	    	font-size: 14px !important;
+	    	text-align: justify;
+	    	font-weight: 400 !important;
+/*	    	background: #f8f9fa;*/
+	    }
+
+	    .card-img-top {
+	    	border-bottom: 1px solid white;
+	    	border-radius: 0 !important;
+	    	-webkit-border-radius: 0 !important;
+	    	-moz-border-radius: 0 !important;
+
+	    }
+
+	    /* Room Type */
+	    #portfolio {
+	    	position: relative;
+	    	width: 100%;
+	    	z-index: 1;
+/*	    	display: inline-block !important;*/
+/*	    	flex-wrap: wrap;*/
+	    	overflow-x: hidden;
+/*	    	margin: 0 !important;*/
+	    }
+	    #portfolio .portfolio-item {
+		  min-width: auto;
+		  width: auto;
+		  min-height: auto;
+		  height: auto;
+		  margin: 0 !important;
+		  padding: 0;
+		  padding-bottom: -25px;
+		  border: 1px solid white;
+/*		  display: inline-block;*/
+/*		  border-radius: 5px !important;*/
+		}
+
+		#portfolio .portfolio-item .portfolio-link {
+		  position: relative;
+		  display: block;
+		  margin: 0 auto;
+		}
+
+		#portfolio .portfolio-item .portfolio-link img {
+			height: 100%;
+			width: 100%;
+		}
+
+		#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+		  display: flex;
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  background: var(--villa-type);
+		  align-items: center;
+		  justify-content: center;
+		  opacity: 0;
+		  transition: opacity ease-in-out 0.25s;
+/*		  border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-top-left-radius: 5px; border-top-right-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-top-right-radius: 5px;*/
+		}
+
+		#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+		  font-size: 1.25rem;
+		  color: white;
+		}
+
+		#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+		  opacity: 1;
+		}
+
+		#portfolio .portfolio-item .portfolio-caption {
+		  padding: 1.5rem;
+		  text-align: center;
+		  background-color: #f8f9fa;
+		}
+
+		#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+		  font-size: 20px;
+		  font-family: 'Montserrat', sans-serif;
+		  font-weight: 700;
+		  text-transform: uppercase;
+		  margin-bottom: 0;
+		}
+
+		#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+		  font-style: italic;
+		  font-family: "Montserrat", sans-serif;
+		  font-size: 13px !important;
+		}
+
+		.portfolio-modal {
+			background: rgba(255, 255, 255, 0.7);
+		}
+
+		.portfolio-modal .modal-dialog {
+/*		  margin: 1rem;*/
+		  max-width: 50vw;
+/*		  max-width: 100vw;*/
+		  top: 30px !important;
+		  bottom: 30px !important;
+		  left: 0;
+		  right: 0;
+		  margin: auto;
+		  margin-bottom: 30px !important;
+		  padding: 0;
+		  box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
+		  -webkit-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
+		  -moz-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
+		  -ms-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
+		}
+
+		.portfolio-modal .modal-content {
+		  padding-top: 6rem;
+		  padding-bottom: 3rem;
+		  text-align: center;
+		  margin: auto !important;
+		  margin-bottom: 70px !important;
+		}
+
+		.modal-title-text {
+			text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; text-transform: uppercase;
+		}
+
+		.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+		  font-size: 3rem;
+		  line-height: 3rem;
+		  font-family: 'Montserrat', sans-serif;
+		}
+
+		.portfolio-modal .modal-content p.item-intro {
+		  font-style: italic;
+		  margin-bottom: 2rem;
+		  font-weight: 700;
+		  color: black;
+/*		  font-family: "Montserrat", sans-serif;*/
+		}
+
+		.portfolio-modal .modal-content p {
+		  margin-bottom: 2rem;
+		  font-size: 14px !important;
+		  font-weight: 400 !important;
+		  text-align: justify;
+		}
+
+		.portfolio-modal .modal-content ul li {
+/*		  margin-bottom: 2rem;*/
+		  font-size: 18px;
+		  font-weight: lighter;
+/*		  letter-spacing: 1px;*/
+		}
+
+		.portfolio-modal .modal-content img {
+		  margin-bottom: 2rem;
+		  border: 4px solid white;
+		  outline: 4px solid var(--main-color);
+			border-radius: 50px 10px / 10px;
+			-webkit-border-radius: 50px 10px / 10px;
+			-moz-border-radius: 50px 10px / 10px;
+			-ms-border-radius: 50px 10px / 10px;|
+		}
+
+		.portfolio-modal .close-modal {
+		  position: absolute;
+		  top: 1.5rem;
+		  right: 1.5rem;
+		  width: 3rem;
+		  height: 3rem;
+		  cursor: pointer;
+		  background-color: transparent;
+		  overflow: hidden;
+		}
+
+		.portfolio-modal .close-modal:hover {
+/*		  opacity: 0.3;*/
+		  color: var(--main-color);
+		}
+
+		.close-description-button {
+		   border: 2px solid #000;
+		   transition: all 0.5s;
+		   -webkit-transition: all 0.5s;
+		   -moz-transition: all 0.5s;
+		   text-transform: uppercase;
+		   letter-spacing: 2px;
+		   height: 50px;
+		   width: auto;
+		   padding-left: 15px;
+		   padding-right: 15px;
+		   font-weight: 700;
+		   color: #000;
+		   background: transparent;
+
+		}
+
+		.close-description-button:hover {
+			background: transparent;
+			border-color: var(--main-color);
+			color: var(--main-color);
+		}
+
+		.villa-detail-texts ul li {
+			font-size: 13px !important;
+			font-weight: 400 !important;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			.portfolio-modal .modal-dialog {
+				max-width: 80vw;
+			}
+		}
+
+		@media only screen and (max-width: 550px) {
+			.portfolio-modal .modal-dialog {
+				max-width: 100%;
+				margin: auto 15px;
+			}
+		}
+
+		@media only screen and (max-width: 414px) {
+			#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+				font-size: 12px !important;
+			}
+		}
+
+
+		/* Testimonials */
+		.demo {
+			position: relative;
+			z-index: 1;
+		}
+
+		.testimonial {
+		  background-color: white;
+		  text-align: center;
+		  padding: 30px 30px 50px;
+		  margin: 25px 15px 160px;
+		  position: relative;
+		}
+
+		.testimonial .testimonial-source {
+			height: 70px; width: auto; margin-bottom: 10px;
+		}
+
+		.owl-wrapper-outer:hover {
+		  cursor: grab;
+		  cursor: -webkit-grab;
+		}
+
+		.testimonial::before,
+		.testimonial::after {
+		  content: "";
+		  border-top: 40px solid white;
+		  border-right: 125px solid transparent;
+		  position: absolute;
+		  bottom: -40px;
+		  left: 0;
+		}
+
+		.testimonial::after {
+		  border-right: none;
+		  border-left: 125px solid transparent;
+		  left: auto;
+		  right: 0;
+		}
+
+		.testimonial .icon {
+		  display: inline-block;
+		  font-size: 80px;
+		  color: var(--main-color);
+		  margin-bottom: 20px;
+		  opacity: 0.6;
+		  -webkit-opacity: 0.6;
+		  -moz-opacity: 0.6;
+		}
+
+		.testimonial .description {
+		  font-family: 'Montserrat', sans-serif;
+		  font-size: 14px !important;
+		  color: #000;
+		  text-align: justify;
+		  letter-spacing: 0 !important;
+		  font-weight: 500 !important;
+/*		  text-align: left;*/
+		  margin-bottom: 30px;
+		  line-height: 1.6;
+		  height: 300px !important;
+		  opacity: 0.9;
+		  -webkit-opacity: 0.9;
+		  -moz-opacity: 0.9;
+		  -ms-opacity: 0.9;
+		}
+
+		.testimonial .testimonial-content {
+		  width: 100%;
+		  left: 0;
+		  position: absolute;
+		}
+
+		.testimonial .pic {
+		  display: inline-block;
+		  border: 4px solid white;
+		  border-radius: 50%;
+		  -webkit-border-radius: 50%;
+		  -moz-border-radius: 50%;
+		  box-shadow: 0 0 4px 4px var(--main-color);
+		  -webkit-box-shadow: 0 0 4px 4px var(--main-color);
+		  -moz-box-shadow: 0 0 4px 4px var(--main-color);
+		  overflow: hidden;
+		  z-index: 1;
+		  position: relative;
+		}
+
+		.testimonial .pic img {
+		  width: 100%;
+		  height: auto;
+		}
+
+		.testimonial .name {
+		  font-size: 15px;
+		  font-weight: 700 !important;
+		  color: white;
+		  text-transform: capitalize;
+		  margin: 30px 0 5px 0;
+		}
+
+		.testimonial .title {
+		  display: block;
+		  font-size: 14px;
+		  color: var(--main-color);
+		}
+
+		.owl-controls {
+		  margin-top: 20px;
+		}
+
+		.owl-pagination {
+		  display: flex;
+		  justify-content: center;
+		}
+
+		.owl-page {
+		  height: 10px;
+		  width: 40px;
+		  background-color: var(--tesimonial-1);
+		  border-radius: 10%;
+		  -webkit-border-radius: 10%;
+		  -moz-border-radius: 10%;
+		}
+
+		.owl-page:hover,
+		.owl-page.active {
+		  background-color: var(--tesimonial-2);
+		}
+
+		.owl-page:not(first-item) {
+		  margin-left: 10px;
+		}
+
+		.gold-stars {
+			color: #f7ec0c;
+		}
+
+		@media only screen and (max-width: 414px) {
+			.testimonial .description {
+				font-size: 14px !important;
+			}
+		}
+
+		@media only screen and (max-width: 414px) {
+			.testimonial .description {
+				height: 330px !important;
+				font-size: 12px !important;
+			}
+		}
+
+		/* WhatsApp Button */
+		.float{
+			position: fixed;
+			/*width: 60px;
+			height: 60px;*/
+			bottom: 50px;
+			right: 20px;
+/*			background-color: #25d366;*/
+			color: #fff;
+/*			border-radius: 50px;*/
+/*			border: 2px solid white;*/
+/*			border-right: none;*/
+			text-align: center;
+		  	font-size: 65px;
+/*			box-shadow: 2px 2px 3px #999;*/
+			/*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			-webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			-moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+		  	z-index: 100;
+		  	transition: all 0.3s;
+		  	-webkit-transition: all 0.3s;
+		  	-moz-transition: all 0.3s;
+		}
+
+		.my-float{
+			margin-top: 12px;
+			color: var(--main-color);
+		}
+
+		.float:hover {
+			background: transparent;
+/*			color: white;*/
+/*			border-color: var(--main-color);*/
+			color: var(--main-color);
+			transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			-moz-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+		}
+
+
+		@media only screen and (max-width: 414px) {
+			.float {
+				bottom: 95px;
+			}
+		}
+
+		/* Popup Message */
+		.popup-bg {
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-color: rgba(255, 255, 255, 0.7);
+			width: 100%;
+		/*	height: 800px;*/
+			height: 100%;
+			z-index: 100;
+			padding: 10px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			/*pointer-events: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;*/
+		}
+
+		.popup-msg {
+			top: 10%;
+			bottom: auto;
+			max-width: 400px !important;
+			height: 700px !important;
+/*			max-height: 600px !important;*/
+		/*	min-width: 400px;*/
+		/*	max-width: 50%;*/
+/*			max-height: 800px;*/
+			margin: auto;
+			position: relative;
+			z-index: 4;
+			background-color: var(--main-color);
+		/*	padding: 2em;*/
+			text-align: center;
+			transition: all .5s;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			box-shadow: var(--popup-image) 0px 5px 15px;
+			-webkit-box-shadow: var(--popup-image) 0px 5px 15px;
+			-moz-box-shadow: var(--popup-image) 0px 5px 15px;		}
+
+		.popup-msg img {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			border: 2px solid var(--main-color);
+		}
+
+		.close-x {
+			position: absolute;
+			top: 2px;
+			right: 10px;
+			font-size: 41px;
+			cursor: pointer;
+			z-index: 5;
+			color: white;
+			transition: all 0.4s;
+			-webkit-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			pointer-events: all;
+		/*	background-color: rgba(0,0,0,.1);*/
+		/*	padding:.5em;*/
+		}
+
+		.close-x:hover {
+			transform: scale(1.3);
+			-webkit-transform: scale(1.3);
+			-moz-transform: scale(1.3);
+		}
+
+		.popup-msg h2 {
+			color: #58a2d3;
+			margin: 1em 0 .3em;
+		}
+
+		a.give-button {
+			padding: 12px 1em;
+			background-color: #58a2d3;
+			color: #fff;
+			border-radius: 100px;
+			margin: 1em auto;
+			display: block;
+			max-width: 200px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.6em;
+		}
+
+		.popup-bg {
+			display: none;
+		}
+
+		.fadeup {
+			transform: translateY(0px);
+		}
+
+		/*@media only screen and (max-width: 645px) {
+			.popup-msg {
+				height: 500px !important;
+				width: 500px !important;
+			}
+		}
+
+		@media only screen and (max-width: 535px) {
+			.popup-msg {
+				height: 400px !important;
+				width: 400px !important;
+			}
+		}
+
+		@media only screen and (max-width: 425px) {
+			.popup-msg {
+				max-height: 100% !important;
+				max-width: 100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 375px) {
+			.popup-msg {
+				height: 580px !important;
+			}
+		}*/
+
+		@media only screen and (max-width: 500px) {
+			.popup-msg {
+				height: auto !important;
+			}
+		}
+
+		@media only screen and (max-width: 375px) {
+			.popup-msg {
+				height: 580px !important;
+				width: 300px !important;
+			}
+		}
+
+		@media only screen and (max-width: 320px) {
+			.popup-msg {
+				height: 450px !important;
+				width: 270px !important;
+			}
+		}
+
+
+		/* Villa Name */
+		.villa-name {
+			color: white !important;
+			font-weight: 700 !important;
+			/*-webkit-text-stroke: 1px white;
+			-moz-text-stroke: 1px white;
+			-ms-text-stroke: 1px white;*/
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+		}
+
+		.villa-name:hover {
+			color: white !important;
+			-webkit-text-stroke-color: black !important;
+			-moz-text-stroke-color: black !important;
+			-ms-text-stroke-color: black !important;
+
+		}
+
+		@media only screen and (max-width: 401px) {
+			.villa-name {
+				font-size: 18px !important;
+			}
+		}
+
+		@media only screen and (max-width: 320px) {
+			.villa-name {
+				font-size: 11px !important;
+			}
+		}
+
+		span.main-color {
+/*			font-family: 'Montserrat', sans-serif !important;*/
+			color: var(--main-color);
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+
+		}
+
+		.main-color:hover {
+/*			color: var(--main-color);*/
+		}
+
+		/* Background Texts */
+		.background-texts {
+			background-color: var(--tesimonial-2);
+			height: auto;
+			width: auto !important;
+			max-width: 100%;
+			padding: 10px 15px;
+		}
+
+
+		/* Let's Stay */
+		@media only screen and (max-width: 414px) {
+			.lets-stay {
+				font-size: 36px !important;
+			}
+		}
+
