@@ -2200,14 +2200,24 @@
 	    	float: right;
 	    }
 
+	    .bali-paradise {
+	    	font-family: 'Playfair Display', serif; font-size: 35px; font-style: italic; text-transform: none;
+	    }
+
 	    .awards-lists {
 	    	justify-content: center; align-items: center; text-align: center; max-width: 100%; display: flex; flex-wrap: wrap;
+	    	filter: grayscale(100%);
+	    	-webkit-filter: grayscale(100%);
 	    }
 
 		/* Let's Stay */
 		@media only screen and (max-width: 414px) {
 			.lets-stay {
 				font-size: 36px !important;
+			}
+
+			.bali-paradise {
+				font-size: 24px !important;
 			}
 		}
 
