@@ -79,18 +79,6 @@
 		#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
 		#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
-		/* Section - Parallax */
-		/**************************/
-		/*#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('./../new-pic-alleira-webp/alleira-1.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('./../photos/eva.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1506252374453-ef5237291d83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603782/pexels-photo-1603782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-seven {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1603801/pexels-photo-1603801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-eight {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-*/
-
 		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/becca-landing-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
@@ -199,7 +187,7 @@
 		.managed-by-bda a img {
 			z-index: 0 !important;
 			width: 200px; height: auto;
-			filter: contrast(200%) !important;
+			filter: grayscale(100%) !important;
 		}
 
 		@media only screen and (max-width: 500px) {
@@ -772,7 +760,7 @@
 	        inset: 0;
 	        padding: 50px 0 10px 0;
 	        margin: 0;
-	        background: rgba(255, 255, 255, 0.7);
+	        background: rgba(255, 255, 255, 0.8);
 /*	        background: var(--tesimonial-2);*/
 	        overflow-y: auto;
 	        transition: 0.3s;
@@ -995,11 +983,26 @@
         	padding: 0 !important;
         	width: 100%;
         	height: 100%;
-        	border: 1px solid var(--main-color);
+        	border: 1px solid black;
+        	transition: all 0.5s;
+        	-webkit-transition: all 0.5s;
+        	-moz-transition: all 0.5s;
+        	-ms-transition: all 0.5s;
         }
 
-        .photos img:hover {
+        .photos:hover img {
         	cursor: zoom-in;
+        	filter: grayscale(100%);
+        	-webkit-filter: grayscale(100%);
+        	-moz-filter: grayscale(100%);
+        	-ms-filter: grayscale(100%);
+        }
+
+        .photo-gallery .photos img:hover {
+        	filter: none;
+        	-webkit-filter: none;
+        	-moz-filter: none;
+        	-ms-filter: none;
         }
 
         .img-fluid {
@@ -1585,14 +1588,15 @@
 		.portfolio-modal .modal-content p {
 		  margin-bottom: 2rem;
 		  font-size: 14px !important;
-		  font-weight: 400 !important;
+		  font-weight: 500 !important;
 		  text-align: justify;
 		}
 
 		.portfolio-modal .modal-content ul li {
 /*		  margin-bottom: 2rem;*/
-		  font-size: 18px;
-		  font-weight: lighter;
+		  list-style: inside;
+		  font-size: 13.5px !important;
+		  font-weight: 500 !important;
 /*		  letter-spacing: 1px;*/
 		}
 
@@ -1627,39 +1631,24 @@
 		}
 
 		.close-description-button {
-/*		   border: 2px solid #000;*/
 		   transition: all 0.5s;
 		   -webkit-transition: all 0.5s;
 		   -moz-transition: all 0.5s;
 		   text-transform: uppercase;
 		   letter-spacing: 2px;
 		   height: 50px;
-		   width: auto;
-		   padding-left: 15px;
-		   padding-right: 15px;
+		   width: 150px;
+		   padding: 10px 15px;
 		   font-weight: 700;
 		   color: #fff;
-		   background: transparent;
-		   margin: 2.5px auto;
+		   vertical-align: middle;
+		   margin: 2.5px 1px;
 		   background: var(--main-color);
-		}
-
-		.close-description-button a {
-			color: #fff;
-			outline: none !important;
 		}
 
 		.close-description-button:hover {
 			color: black;
-		}
-
-		.close-description-button a:hover {
-			color: black;
-		}
-
-		.villa-detail-texts ul li {
-			font-size: 13px !important;
-			font-weight: 400 !important;
+			cursor: pointer;
 		}
 
 		@media only screen and (max-width: 1000px) {
@@ -1688,6 +1677,12 @@
 
 			.room-type-buttons a h6 {
 				font-size: 16px !important;
+			}
+		}
+
+		@media only screen and (max-width: 362px) {
+			.close-description-button {
+				display: inline-block;
 			}
 		}
 
@@ -1781,6 +1776,10 @@
 		.testimonial .pic img {
 		  width: 100%;
 		  height: auto;
+		  filter: grayscale(100%);
+		  -webkit-filter: grayscale(100%);
+		  -moz-filter: grayscale(100%);
+		  -ms-filter: grayscale(100%);
 		}
 
 		.testimonial .name {
@@ -1844,21 +1843,11 @@
 		/* WhatsApp Button */
 		.float{
 			position: fixed;
-			/*width: 60px;
-			height: 60px;*/
 			bottom: 50px;
 			right: 20px;
-/*			background-color: #25d366;*/
 			color: #fff;
-/*			border-radius: 50px;*/
-/*			border: 2px solid white;*/
-/*			border-right: none;*/
 			text-align: center;
 		  	font-size: 65px;
-/*			box-shadow: 2px 2px 3px #999;*/
-			/*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-			-webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-			-moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 		  	z-index: 100;
 		  	transition: all 0.3s;
 		  	-webkit-transition: all 0.3s;
@@ -1876,7 +1865,6 @@
 			-moz-transform: scale(1.2);
 			-ms-transform: scale(1.2);
 		}
-
 
 		@media only screen and (max-width: 414px) {
 			.float {
@@ -2231,6 +2219,9 @@
 	    	-webkit-filter: grayscale(100%);
 	    }
 
+	    .villa-videos {
+	    	border: 2px solid black;
+	    }
 
 
 		/* Let's Stay */
