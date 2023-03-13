@@ -91,14 +91,14 @@
 		#parallax-world-of-ugg .parallax-eight {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 */
 
-		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('https://bestdealsasiarentals.com/wp-content/uploads/2023/02/VanEdited-IMG_0241.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1490365728022-deae76380607?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-five {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1511744548432-8037f30bf0c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-six {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/10683235/pexels-photo-10683235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-seven {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-eight {filter: grayscale(100%); -webkit-filter: grayscale(100%);padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/becca-landing-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('./../photos/contact-us-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-five {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.unsplash.com/photo-1511744548432-8037f30bf0c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-six {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.pexels.com/photos/10683235/pexels-photo-10683235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-seven {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 2 -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); 00px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-eight {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 
 
 		/* Extras */
@@ -307,17 +307,6 @@
 	      text-transform: uppercase;
 		  border: 2px solid white;
 		  outline: 2px solid var(--bda-blue-color);
-		  /* From https://css.glass */
-/*		  background: rgba(255, 255, 255, 0.2);*/
-		  /*border-radius: 5px;
-		  -webkit-border-radius: 5px;
-		  -moz-border-radius: 5px;*/
-		  /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		  -moz-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		  backdrop-filter: blur(5px);
-		  -webkit-backdrop-filter: blur(5px);
-		  -moz-backdrop-filter: blur(5px);*/
 
 	    }
 
@@ -325,9 +314,9 @@
 	    .header .book-now-button:focus:hover {
 	      background: black;
 	      outline-color: black;
-	      transform: scale(1.1);
+	      /*transform: scale(1.1);
 	      -webkit-transform: scale(1.1);
-	      -moz-transform: scale(1.1);
+	      -moz-transform: scale(1.1);*/
 	    }
 
 	    /*@keyframes bookAnimation {
@@ -783,8 +772,8 @@
 	        inset: 0;
 	        padding: 50px 0 10px 0;
 	        margin: 0;
-/*	        background: rgba(255, 255, 255, 0.9);*/
-	        background: var(--tesimonial-2);
+	        background: rgba(255, 255, 255, 0.7);
+/*	        background: var(--tesimonial-2);*/
 	        overflow-y: auto;
 	        transition: 0.3s;
 	        -webkit-transition: 0.3s;
@@ -829,7 +818,7 @@
 	      .navbar .active:focus {
 	        color: #000;
 /*	        border-color: var(--main-color);*/
-	        border-color: #fff;
+	        border-color: #000;
 	      }
 
 	      .navbar .dropdown ul,
@@ -1083,6 +1072,9 @@
 			border: 4px solid white;
 			padding: 10px 15px;
 			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
 	    }
 
 	    .footer-icons:hover {
@@ -1124,6 +1116,10 @@
 	    .footer-texts:hover {
 	    	color: var(--main-color);
 	    	cursor: pointer;
+	    }
+
+	    .contact-us-information {
+	    	position: fixed !important;
 	    }
 
 	    @media only screen and (min-width: 1400px) {
@@ -1277,18 +1273,11 @@
 	    	transition: all 0.3s;
 	    	-webkit-transition: all 0.3s;
 	    	-moz-transition: all 0.3s;
-/*	    	margin-left: 40px;*/
 	    	font-size: 28px;
 	    	font-family: 'Montserrat', sans-serif;
 	    	z-index: 0 !important;
-/*	    	letter-spacing: 2px;*/
 	    	width: 90%;
 	    	max-width: 100%;
-	    	/*-webkit-text-stroke: 1px var(--main-color);
-	    	-moz-text-stroke: 1px var(--main-color);
-	    	-ms-text-stroke: 1px var(--main-color);*/
-/*	    	position: relative;*/
-/*	    	display: block;*/
 	    }
 
 	    /*.footer-informations:before {
@@ -1484,7 +1473,7 @@
 
 		#portfolio .portfolio-item .portfolio-link h6 {
 			font-weight: 700;
-			font-size: 20px;
+			font-size: 18.5px;
 			color: black;
 			padding: 10px 15px;
 			background: grey;
@@ -1610,11 +1599,11 @@
 		.portfolio-modal .modal-content img {
 		  margin-bottom: 2rem;
 		  border: 4px solid white;
-		  outline: 4px solid var(--main-color);
-			border-radius: 50px 10px / 10px;
-			-webkit-border-radius: 50px 10px / 10px;
-			-moz-border-radius: 50px 10px / 10px;
-			-ms-border-radius: 50px 10px / 10px;|
+		  outline: 4px solid black;
+		  /*border-radius: 50px 10px / 10px;
+		  -webkit-border-radius: 50px 10px / 10px;
+		  -moz-border-radius: 50px 10px / 10px;
+		  -ms-border-radius: 50px 10px / 10px;*/
 		}
 
 		.portfolio-modal .close-modal {
@@ -1638,7 +1627,7 @@
 		}
 
 		.close-description-button {
-		   border: 2px solid #000;
+/*		   border: 2px solid #000;*/
 		   transition: all 0.5s;
 		   -webkit-transition: all 0.5s;
 		   -moz-transition: all 0.5s;
@@ -1649,15 +1638,23 @@
 		   padding-left: 15px;
 		   padding-right: 15px;
 		   font-weight: 700;
-		   color: #000;
+		   color: #fff;
 		   background: transparent;
+		   margin: 2.5px auto;
+		   background: var(--main-color);
+		}
 
+		.close-description-button a {
+			color: #fff;
+			outline: none !important;
 		}
 
 		.close-description-button:hover {
-			background: transparent;
-			border-color: var(--main-color);
-			color: var(--main-color);
+			color: black;
+		}
+
+		.close-description-button a:hover {
+			color: black;
 		}
 
 		.villa-detail-texts ul li {
@@ -1688,6 +1685,10 @@
 			.room-type-buttons {
 				display: inline-block;
 			}
+
+			.room-type-buttons a h6 {
+				font-size: 16px !important;
+			}
 		}
 
 
@@ -1698,7 +1699,7 @@
 		}
 
 		.testimonial {
-		  background-color: white;
+/*		  background-color: white;*/
 		  text-align: center;
 		  padding: 30px 30px 50px;
 		  margin: 25px 15px 160px;
@@ -1714,11 +1715,11 @@
 		  cursor: -webkit-grab;
 		}
 
-		.testimonial::before,
+		/*.testimonial::before,
 		.testimonial::after {
 		  content: "";
 		  border-top: 40px solid white;
-		  border-right: 125px solid transparent;
+		  border-right: 125px solid black;
 		  position: absolute;
 		  bottom: -40px;
 		  left: 0;
@@ -1726,10 +1727,10 @@
 
 		.testimonial::after {
 		  border-right: none;
-		  border-left: 125px solid transparent;
+		  border-left: 125px solid black;
 		  left: auto;
 		  right: 0;
-		}
+		}*/
 
 		.testimonial .icon {
 		  display: inline-block;
@@ -1748,14 +1749,13 @@
 		  text-align: justify;
 		  letter-spacing: 0 !important;
 		  font-weight: 500 !important;
-/*		  text-align: left;*/
 		  margin-bottom: 30px;
 		  line-height: 1.6;
 		  height: 300px !important;
-		  opacity: 0.9;
+		  /*opacity: 0.9;
 		  -webkit-opacity: 0.9;
 		  -moz-opacity: 0.9;
-		  -ms-opacity: 0.9;
+		  -ms-opacity: 0.9;*/
 		}
 
 		.testimonial .testimonial-content {
@@ -2099,6 +2099,10 @@
 		.play-video img {
 			width: 70px !important;
 			height: auto;
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
 			filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(172deg) brightness(102%) contrast(101%);
 			-webkit-filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(172deg) brightness(102%) contrast(101%);
 			-moz-filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(172deg) brightness(102%) contrast(101%);
@@ -2106,24 +2110,31 @@
 			animation: playButton 5s infinite linear;
 		}
 
+		.play-video img:hover {
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+		}
+
 		@keyframes playButton {
 	      0% {
-	        opacity: 0.2;
-	        -webkit-opacity: 0.2;
-	        -moz-opacity: 0.2;
-	        -ms-opacity: 0.2;
-	      }
-	      50% {
 	        opacity: 1.0;
 	        -webkit-opacity: 1.0;
 	        -moz-opacity: 1.0;
 	        -ms-opacity: 1.0;
 	      }
+	      50% {
+	        opacity: 0.5;
+	        -webkit-opacity: 0.5;
+	        -moz-opacity: 0.5;
+	        -ms-opacity: 0.5;
+	      }
 	      100% {
-	        opacity: 0.2;
-	        -webkit-opacity: 0.2;
-	        -moz-opacity: 0.2;
-	        -ms-opacity: 0.2;
+	        opacity: 1.0;
+	        -webkit-opacity: 1.0;
+	        -moz-opacity: 1.0;
+	        -ms-opacity: 1.0;
 	      }
 	    }
 
@@ -2198,10 +2209,16 @@
 	    	padding: 11px 17px;
 	    	border-radius: 50%;
 	    	float: right;
+	    	transition: all 0.3s;
+	    	-webkit-transition: all 0.3s;
+	    	-moz-transition: all 0.3s;
+	    	-ms-transition: all 0.3s;
 	    }
 
 	    .close-youtube-video i:hover {
 	    	cursor: pointer;
+	    	background: white;
+	    	color: black;
 	    }
 
 	    .bali-paradise {
@@ -2214,6 +2231,8 @@
 	    	-webkit-filter: grayscale(100%);
 	    }
 
+
+
 		/* Let's Stay */
 		@media only screen and (max-width: 414px) {
 			.lets-stay {
@@ -2223,5 +2242,9 @@
 			.bali-paradise {
 				font-size: 24px !important;
 			}
+
+			.villa-videos {
+	    		height: 300px;
+	    	}
 		}
 
