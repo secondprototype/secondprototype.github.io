@@ -23,6 +23,7 @@
 			--popup-image: rgba(64, 64, 64, 0.4);
 			--villa-type: rgba(64, 64, 64, 0.9);
 			--facilities-color: invert(23%) sepia(0%) saturate(0%) hue-rotate(248deg) brightness(96%) contrast(88%);
+			--bda-font: 'Montserrat', sans-serif;
 		}
 
 		::selection {
@@ -49,10 +50,10 @@
 
 		/* Typography */
 		/**************************/
-		#parallax-world-of-ugg h1 {font-family:'Montserrat', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-		#parallax-world-of-ugg h2 {font-family:'Montserrat', sans-serif; font-size:70px; letter-spacing:0px; text-align:center; color:white; font-weight:700; text-transform:uppercase; z-index:10; opacity:.9;}
-		#parallax-world-of-ugg h3 {font-family:'Montserrat', sans-serif; font-size:14px; line-height:normal; font-weight:400; letter-spacing:0px; text-transform: uppercase; color:black;}
-		#parallax-world-of-ugg p {font-family:'Montserrat', sans-serif; font-weight:lighter; font-size:inherit; line-height:24px;}
+		#parallax-world-of-ugg h1 {font-family: var(--bda-font); font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+		#parallax-world-of-ugg h2 {font-family: var(--bda-font); font-size:70px; letter-spacing:0px; text-align:center; color:white; font-weight:700; text-transform:uppercase; z-index:10; opacity:.9;}
+		#parallax-world-of-ugg h3 {font-family: var(--bda-font); font-size:14px; line-height:normal; font-weight:400; letter-spacing:0px; text-transform: uppercase; color:black;}
+		#parallax-world-of-ugg p {font-family: var(--bda-font); font-weight:lighter; font-size:inherit; line-height:24px;}
 		.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
 
 		.sc {color: #3b8595;}
@@ -172,8 +173,8 @@
 		/* Managed by BDA */
 		.managed-by-bda {
 			z-index: 0 !important;
-			width: 100%;
 			max-width: 100%;
+			margin-top: 30px; color: white; text-transform: uppercase; z-index: 0 !important; width: auto !important;
 		}
 
 		.managed-by-bda a {
@@ -273,7 +274,7 @@
 
 	    .header .book-now-button,
 	    .header .book-now-button:focus {
-	      font-family: 'Montserrat', sans-serif;
+	      font-family: var(--bda-font);
 	      font-size: 24px;
 	      color: white;
 	      background: var(--bda-blue-color);
@@ -395,9 +396,6 @@
 	    }
 
 	    @media only screen and (min-width: 1280px) and (max-width: 1399px) {
-	    	.header .book-now-button {
-	    		font-size: 14px;
-	    	}
 
 	    	.villa-name {
 	    		font-size: 16px !important;
@@ -426,13 +424,13 @@
 	    	}
 	    }
 
-	    @media only screen and (max-width: 486px) {
+	    @media only screen and (max-width: 487px) {
 	    	.header .book-now-button {
-	    		font-size: 14px;
+	    		font-size: 18px;
 	    	}
 
 	    	.villa-name {
-	    		font-size: 14px !important;
+	    		font-size: 15px !important;
 	    	}
 
 	    	.villa-name span {
@@ -462,7 +460,7 @@
 
 	    @media only screen and (max-width: 416px) {
 	    	.header .book-now-button {
-	    		font-size: 16px;
+	    		font-size: 18px;
 	    	}
 
 	    	.header h1 {
@@ -479,11 +477,11 @@
 
 	    @media only screen and (max-width: 401px) {
 	    	.header .book-now-button {
-	    		font-size: 12px !important;
+	    		font-size: 16px !important;
 	    	}
 
 	    	h1.villa-name {
-	    		font-size: 12px !important;
+	    		font-size: 14px !important;
 	    	}
 
 	    	.villa-name span {
@@ -497,9 +495,29 @@
 	    	}
 	    }
 
+	    @media only screen and (max-width: 378px) {
+	    	.header .book-now-button {
+	    		font-size: 13px !important;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 11px !important;
+	    	}
+	    }
+
 	    @media only screen and (max-width: 375px) {
 	    	.header-text {
 	    		font-size: 14px !important;
+	    	}
+	    }
+
+	    @media only screen and (max-width: 359px) {
+	    	.header .book-now-button {
+	    		font-size: 11px !important;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 10px !important;
 	    	}
 	    }
 
@@ -599,7 +617,7 @@
 
 	      .navbar a,
 	      .navbar a:focus {
-	      	font-family: 'Montserrat', sans-serif;
+	      	font-family: var(--bda-font);
 	      	text-transform: uppercase;
 	        display: flex;
 	        align-items: center;
@@ -759,7 +777,7 @@
 
 	      .navbar a,
 	      .navbar a:focus {
-	      	font-family: 'Montserrat', sans-serif;
+	      	font-family: var(--bda-font);
 	      	text-transform: uppercase;
 	        display: flex;
 	        align-items: center;
@@ -1016,7 +1034,7 @@
 	    --------------------------------------------------------------*/
 	    .text-facilities {
 	        font-size: 13px !important;
-	        font-family: 'Montserrat', sans-serif;
+	        font-family: var(--bda-font);
 	        font-weight: 500 !important;
 /*	        letter-spacing: 1px;*/
 	        /*text-transform: uppercase;*/
@@ -1077,7 +1095,7 @@
 
 	    span.all-rights-reserved {
 	    	color: black;
-	    	font-family: 'Montserrat', sans-serif;
+	    	font-family: var(--bda-font);
 	    	font-weight: 500;
 	    	font-size: 14px !important;
 	    }
@@ -1266,7 +1284,7 @@
 	    	-webkit-transition: all 0.3s;
 	    	-moz-transition: all 0.3s;
 	    	font-size: 28px;
-	    	font-family: 'Montserrat', sans-serif;
+	    	font-family: var(--bda-font);
 	    	z-index: 0 !important;
 	    	width: 90%;
 	    	max-width: 100%;
@@ -1410,7 +1428,7 @@
 	    }
 
 	    .card-title {
-	    	font-family: 'Montserrat', sans-serif;
+	    	font-family: var(--bda-font);
 	    	text-align: center;
 	    	font-size: 24px;
 	    }
@@ -1515,7 +1533,7 @@
 
 		#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
 		  font-size: 20px;
-		  font-family: 'Montserrat', sans-serif;
+		  font-family: var(--bda-font);
 		  font-weight: 700;
 		  text-transform: uppercase;
 		  margin-bottom: 0;
@@ -1546,6 +1564,7 @@
 		  -webkit-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
 		  -moz-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
 		  -ms-box-shadow: var(--tesimonial-2) 0px 7px 29px 0px;
+/*		  box-shadow: var(--tesimonial-2) 0px 8px 24px;*/
 		}
 
 		.portfolio-modal .modal-content {
@@ -1557,13 +1576,13 @@
 		}
 
 		.modal-title-text {
-			text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700; text-transform: uppercase;
+			text-align: center; font-family: var(--bda-font); font-weight: 700; text-transform: uppercase;
 		}
 
 		.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
 		  font-size: 3rem;
 		  line-height: 3rem;
-		  font-family: 'Montserrat', sans-serif;
+		  font-family: var(--bda-font);
 		}
 
 		.portfolio-modal .modal-content p.item-intro {
@@ -1727,7 +1746,7 @@
 		}
 
 		.testimonial .description {
-		  font-family: 'Montserrat', sans-serif;
+		  font-family: var(--bda-font);
 		  font-size: 14px !important;
 		  color: #000;
 		  text-align: justify;
@@ -2020,9 +2039,6 @@
 		.villa-name {
 			color: black !important;
 			font-weight: 700 !important;
-			/*-webkit-text-stroke: 1px white;
-			-moz-text-stroke: 1px white;
-			-ms-text-stroke: 1px white;*/
 			transition: all 0.3s;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -2030,10 +2046,7 @@
 		}
 
 		.villa-name:hover {
-			color: white !important;
-			-webkit-text-stroke-color: black !important;
-			-moz-text-stroke-color: black !important;
-			-ms-text-stroke-color: black !important;
+			color: var(--main-color) !important;
 
 		}
 
