@@ -390,17 +390,6 @@
 	    	}*/
 	    }
 
-	    @media only screen and (min-width: 1280px) and (max-width: 1399px) {
-
-	    	.villa-name {
-	    		font-size: 16px !important;
-	    	}
-
-	    	.villa-name span {
-	    		font-size: 16px;
-	    	}
-	    }
-
 	    /*@media only screen and (max-width: 680px) {
 	    	#house {
 	    		height: 120px !important;
@@ -419,13 +408,13 @@
 	    	}
 	    }
 
-	    @media only screen and (max-width: 487px) {
+	    @media only screen and (max-width: 575px) {
 	    	.header .book-now-button {
 	    		font-size: 18px;
 	    	}
 
 	    	.villa-name {
-	    		font-size: 15px !important;
+	    		font-size: 18px !important;
 	    	}
 
 	    	.villa-name span {
@@ -455,7 +444,11 @@
 
 	    @media only screen and (max-width: 416px) {
 	    	.header .book-now-button {
-	    		font-size: 18px;
+	    		font-size: 14px !important;
+	    	}
+
+	    	.villa-name {
+	    		font-size: 14px !important;
 	    	}
 
 	    	.header h1 {
@@ -471,14 +464,6 @@
 	    }
 
 	    @media only screen and (max-width: 401px) {
-	    	.header .book-now-button {
-	    		font-size: 16px !important;
-	    	}
-
-	    	h1.villa-name {
-	    		font-size: 14px !important;
-	    	}
-
 	    	.villa-name span {
 	    		font-size: 12px  !important;
 	    	}
@@ -490,29 +475,19 @@
 	    	}
 	    }
 
-	    @media only screen and (max-width: 378px) {
-	    	.header .book-now-button {
-	    		font-size: 13px !important;
-	    	}
-
-	    	.villa-name {
-	    		font-size: 11px !important;
-	    	}
-	    }
-
 	    @media only screen and (max-width: 375px) {
 	    	.header-text {
 	    		font-size: 14px !important;
 	    	}
 	    }
 
-	    @media only screen and (max-width: 359px) {
+	    @media only screen and (max-width: 366px) {
 	    	.header .book-now-button {
-	    		font-size: 11px !important;
+	    		font-size: 12px !important;
 	    	}
 
 	    	.villa-name {
-	    		font-size: 10px !important;
+	    		font-size: 12px !important;
 	    	}
 	    }
 
@@ -535,25 +510,17 @@
 	    }*/
 
 	    @media only screen and (min-width: 354px) and (max-width: 357px) {
-	    	.header .book-now-button {
-	    		font-size: auto;
-	    	}
-
 	    	.villa-logo {
 	    		width: 90px;
 	    	}
 	    }
 
-	    @media only screen and (max-width: 353px) {
+	    @media only screen and (max-width: 339px) {
 	    	.header .book-now-button {
 	    		font-size: 10px !important;
 	    	}
 
-	    	h1.villa-name {
-	    		font-size: 10px !important;
-	    	}
-
-	    	.villa-name span {
+	    	.villa-name {
 	    		font-size: 10px !important;
 	    	}
 	    }
@@ -567,20 +534,6 @@
 	    @media only screen and (min-width: 320px) and (max-width: 344px) {
 	    	.villa-logo {
 	    		width: 70px;
-	    	}
-	    }
-
-	    @media only screen and (max-width: 326px) {
-	    	.header .book-now-button {
-	    		font-size: 10px !important;
-	    	}
-
-	    	h1.villa-name {
-	    		font-size: 8px !important;
-	    	}
-
-	    	.villa-name span {
-	    		font-size: 8px !important;
 	    	}
 	    }
 
@@ -2043,18 +1996,6 @@
 		.villa-name:hover {
 			color: var(--main-color) !important;
 
-		}
-
-		@media only screen and (max-width: 401px) {
-			.villa-name {
-				font-size: 18px !important;
-			}
-		}
-
-		@media only screen and (max-width: 320px) {
-			.villa-name {
-				font-size: 11px !important;
-			}
 		}
 
 		span.main-color {
