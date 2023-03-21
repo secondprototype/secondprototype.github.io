@@ -75,7 +75,7 @@
 		#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
 		#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
-		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/becca-landing-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('https://bestdealsasiarentals.com/wp-content/uploads/2022/03/Villa-Bella-011.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
 		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('./../photos/contact-us-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
@@ -1603,6 +1603,7 @@
 		  cursor: pointer;
 		  background-color: transparent;
 		  overflow: hidden;
+		  color: black !important;
 		}
 
 		.portfolio-modal .close-modal:hover {
@@ -1687,6 +1688,10 @@
 
 		.testimonial .testimonial-source {
 			height: 70px; width: auto; margin-bottom: 10px;
+			filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
 		}
 
 		.owl-wrapper-outer:hover {
