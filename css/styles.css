@@ -1036,6 +1036,11 @@
 
 	    #facilities {
 	    	z-index: 1;
+	    	background: white;
+	    	justify-content: center;
+	    	-webkit-justify-content: center;
+	    	-moz-justify-content: center;
+	    	-ms-justify-content: center;
 	    }
 
 	    /* Footer Icons */
@@ -1760,6 +1765,8 @@
 		  overflow: hidden;
 		  z-index: 1;
 		  position: relative;
+		  width: 100px;
+		  height: auto;
 		}
 
 		.testimonial .pic img {
