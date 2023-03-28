@@ -116,6 +116,11 @@
 			#parallax-world-of-ugg h2 {font-size: 40px;}
 			#parallax-world-of-ugg .title h1 {font-size: 25px;}	
 		}
+		@media only screen and (max-width: 414px) {
+			#parallax-world-of-ugg .parallax-one {
+				background-position: 75% 100% !important;
+			}
+		}
 
 		/* Villa Awards */
 		.alleira-awards {
@@ -1425,7 +1430,7 @@
 	    	-webkit-filter: grayscale(100%);
 	    	-moz-filter: grayscale(100%);
 	    	-ms-filter: grayscale(100%);
-/* 	    	border: 2px solid black; */
+/*	    	border: 2px solid black;*/
 	    }
 
 	    /* Room Type */
