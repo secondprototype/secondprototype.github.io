@@ -1425,7 +1425,7 @@
 	    	-webkit-filter: grayscale(100%);
 	    	-moz-filter: grayscale(100%);
 	    	-ms-filter: grayscale(100%);
-	    	border: 2px solid black;
+/* 	    	border: 2px solid black; */
 	    }
 
 	    /* Room Type */
