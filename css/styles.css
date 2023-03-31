@@ -75,14 +75,16 @@
 		#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
 		#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
-		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('https://bestdealsasiarentals.com/wp-content/uploads/2022/03/Villa-Bella-011.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-color: white; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('./../photos/contact-us-page.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-five {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.unsplash.com/photo-1511744548432-8037f30bf0c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-six {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.pexels.com/photos/10683235/pexels-photo-10683235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-seven {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 2 -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); 00px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
-		#parallax-world-of-ugg .parallax-eight {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-color: white; background-image: url('https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('https://bestdealsasiarentals.com/wp-content/uploads/2022/04/Frida-Villa-Ubud-017.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: bottom center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-two {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-three {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('./../photos/Eva-White.webp'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('./../photos/contact-us-frida-black-white.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-five {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1646928234724-ddfac30993e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-six {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/10683235/pexels-photo-10683235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-seven {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.unsplash.com/photo-1521170813716-0b3f42fcfb65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+		#parallax-world-of-ugg .parallax-eight {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; min-height: 100%; background-image: url('https://images.pexels.com/photos/1236678/pexels-photo-1236678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; z-index: 1;}
+
+		
 
 
 		/* Extras */
@@ -115,6 +117,11 @@
 		@media only screen and (max-width: 448px) {
 			#parallax-world-of-ugg h2 {font-size: 40px;}
 			#parallax-world-of-ugg .title h1 {font-size: 25px;}	
+		}
+		@media only screen and (max-width: 414px) {
+			#parallax-world-of-ugg .parallax-one {
+				background-position: 67% 100% !important;
+			}
 		}
 
 		/* Villa Awards */
@@ -1412,7 +1419,7 @@
 	    .card-text {
 	    	font-size: 14px !important;
 	    	text-align: justify;
-	    	font-weight: 400 !important;
+	    	font-weight: 500 !important;
 /*	    	background: #f8f9fa;*/
 	    }
 
@@ -1421,7 +1428,11 @@
 	    	border-radius: 0 !important;
 	    	-webkit-border-radius: 0 !important;
 	    	-moz-border-radius: 0 !important;
-
+	    	filter: grayscale(100%);
+	    	-webkit-filter: grayscale(100%);
+	    	-moz-filter: grayscale(100%);
+	    	-ms-filter: grayscale(100%);
+/*	    	border: 2px solid black;*/
 	    }
 
 	    /* Room Type */
@@ -1704,23 +1715,6 @@
 		  cursor: -webkit-grab;
 		}
 
-		/*.testimonial::before,
-		.testimonial::after {
-		  content: "";
-		  border-top: 40px solid white;
-		  border-right: 125px solid black;
-		  position: absolute;
-		  bottom: -40px;
-		  left: 0;
-		}
-
-		.testimonial::after {
-		  border-right: none;
-		  border-left: 125px solid black;
-		  left: auto;
-		  right: 0;
-		}*/
-
 		.testimonial .icon {
 		  display: inline-block;
 		  font-size: 80px;
@@ -1740,7 +1734,7 @@
 		  font-weight: 500 !important;
 		  margin-bottom: 30px;
 		  line-height: 1.6;
-		  height: 300px !important;
+		  height: 350px !important;
 		  /*opacity: 0.9;
 		  -webkit-opacity: 0.9;
 		  -moz-opacity: 0.9;
@@ -1832,7 +1826,6 @@
 
 		@media only screen and (max-width: 414px) {
 			.testimonial .description {
-				height: 330px !important;
 				font-size: 12px !important;
 			}
 		}
